@@ -29,7 +29,7 @@ A Dark Elf warband must include a minimum of three models. You have 500 gold cro
 The following lists are used by Dark Elf warbands to pick their weapons:
 
 __Dark Elf Equipment List__
-{{< table style="table-floating" >}}
+{{< table style="table-border" >}}
 | Hand-to-hand Combat Weapons | |
 | --- | ---: |
 | Dagger | 1st free/2 GC |
@@ -42,11 +42,14 @@ __Dark Elf Equipment List__
 | Dark Steel Weapon* | 2x price |
 {{< /table >}}
 
+{{< table style="table-floating" >}}
 | Missile Weapons | |
 | - | - |
 | Repeater Crossbow | 35 GC |
 | Crossbow Pistol | 35 GC |
+{{< /table >}}
 
+{{< table style="table-floating" >}}
 | Armour | |
 | - | - |
 | Buckler | 5 GC |
@@ -54,22 +57,32 @@ __Dark Elf Equipment List__
 | Helmet | 10 GC |
 | Light armour | 20 GC |
 | Dark Steel Armour* | 95 GC |
+{{< /table >}}
 
-Special Equipment
+|Special Equipment| |
+| - | - |
 | Dark Venom* | 15 GC |
 | Sea Dragon Cloak** | 50 GC |
-Shades Equipment List
-Hand-to-hand Combat Weapons
+
+### Shades Equipment List
+
+| Hand-to-hand Combat Weapons | |
+| - | - |
 | Dagger | 1st free/2 GC |
 | Axe | 5 GC |
 | Sword | 10 GC |
-Missile Weapons
+
+|Missile Weapons| |
+| - | - |
 | Repeater Crossbow | 35 GC |
-Armour
+
+| Armour | |
+| - | - |
 | Helmet | 10 GC |
 | Light armour | 20 GC |
-* May be taken by Heroes only.
-** May be taken by Heroes and Corsairs only.
+
+*: May be taken by Heroes only.  
+**: May be taken by Heroes and Corsairs only.
 <!-- {{< table style="table-floating" >}}
 | Key        | value           |
 | ------------- |:-------------:|

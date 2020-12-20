@@ -1,0 +1,15 @@
+{{ $index := .Page.Scratch.Get "spell_index" }}
+{{ if gt (int $index) 0 }}
+{{ $index = (add $index 1) }}
+{{ else }}
+{{ $index = 1 }}    
+{{ end }}
+{{ .Page.Scratch.Set "spell_index" $index }}
+<tr>
+    <th>{{ .Get "difficulty" }}+</th>
+    <th>{{ .Get "name" }}</th>
+</tr>
+<tr>
+    <td>{{ $index }}</td>
+    <td>{{ .Inner | markdownify}}</td>
+</tr>

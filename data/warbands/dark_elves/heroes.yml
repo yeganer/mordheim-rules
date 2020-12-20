@@ -1,6 +1,6 @@
 highborn:
   name: High Born
-  price: 80gc
+  price: 80
   xp: 20
   stats:
     M: 5
@@ -22,10 +22,24 @@ highborn:
     - Dark Elf Special Skill
   skills:
     - Leader
-Held2:
-  M: 5
-  WS: 5
-  BS: 5
-  S: 3
-  T: 3
-  W: 1
+fellblade:
+  name: Fellblade
+  price: 50
+  stats:
+    M: 5
+    WS: 5
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 8
+  equipment_list:
+    - Dark Elf equipement list
+  skill_lists:
+    - Combat
+    - Speed
+    - Dark Elf Special Skill
+  skills:
+    - Melee Specialist: Fellblades live by a strict code of close quarter fighting. Fellblades may not use missile warpons of any sort
