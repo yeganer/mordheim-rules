@@ -1,0 +1,31 @@
+highborn:
+  name: High Born
+  price: 80gc
+  xp: 20
+  stats:
+    M: 5
+    WS: 5
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 9
+  equipment_list:
+    - Dark Elf equipment list
+  skill_lists:
+    - Combat
+    - Shooting
+    - Academic
+    - Speed
+    - Dark Elf Special Skill
+  skills:
+    - Leader
+Held2:
+  M: 5
+  WS: 5
+  BS: 5
+  S: 3
+  T: 3
+  W: 1

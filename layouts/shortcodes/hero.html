@@ -1,0 +1,20 @@
+{{- $data := (index .Site.Data.warbands.dark_elves.heroes (.Get "key")) -}}
+
+{{ printf "# %s" ($data).name | markdownify }}
+{{ print .Inner | markdownify }}
+
+{{ template "hero_stats" dict "data" $data }}
+
+{{ define "hero_stats" }}
+{{- $stat_keys := (slice "M" "WS" "BS" "S" "T" "W" "I" "A" "Ld") -}}
+<div class="table">
+<table class="table-bordered table-sm">
+    <thead>
+      <tr>{{range $stat_keys}}<th>{{ . }}</th>{{end}}</tr>
+    </thead>
+    <tbody>
+      <tr>{{range $stat_keys}}<td>{{ index $.data.stats . }}</td>{{end}}</tr>
+    </tbody>
+</table>
+</div>
+{{ end }}

@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "de-de"
+title = "Mordheim Regelwerk"
+theme = "ace-documentation"
