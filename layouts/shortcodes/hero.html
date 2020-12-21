@@ -1,16 +1,23 @@
-{{- $data := (index .Site.Data.warbands.dark_elves.heroes (.Get "key")) -}}
-
+<div class="row">
+<!-- sort heroes based on weight -->
+{{- range $k, $v := .Site.Data.warbands.dark_elves.heroes }}
+{{- $data := $v -}}
+<div class="col-md-6">
 <h1>{{ $data.name }}</h1>
 <strong>{{ $data.price }}</strong> Gold Crowns to hire
 <p>
-{{ print .Inner | markdownify }}
+{{ print $data.fluff | markdownify }}
 </p>
 {{ template "hero_stats" dict "data" $data }}
 
+{{- end -}}
+</div>
+
+
 {{ define "hero_stats" }}
 {{- $stat_keys := (slice "M" "WS" "BS" "S" "T" "W" "I" "A" "Ld") -}}
-<div class="table">
-<table class="table-bordered">
+
+<table class="table-bordered table-sm">
     <caption>Profile</caption>
     <thead>
       <tr>{{range $stat_keys}}<th>{{ . }}</th>{{end}}</tr>

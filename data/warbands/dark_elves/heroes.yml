@@ -22,6 +22,13 @@ highborn:
     - Dark Elf Special Skill
   skills:
     - Leader
+  fluff: |
+    Dark Elf Leaders are typically drawn from the Dark Elf nobility and lead the warband in search of gold,
+    slaves and arcane artefacts to bring home to Naggaroth. They are cold and ruthless killers and they command
+    the respect of their troops through assassination and terror. They have attained their position of leadership
+    by eliminating rival nobles who stand in their way and through their remarkable cunning, they are dangerous
+    foes who embody the merciless traits of the Druchii race.
+
 fellblade:
   name: Fellblade
   price: 50
@@ -42,4 +49,4 @@ fellblade:
     - Speed
     - Dark Elf Special Skill
   skills:
-    - Melee Specialist: Fellblades live by a strict code of close quarter fighting. Fellblades may not use missile warpons of any sort
+    - Melee Specialist: Fellblades live by a strict code of close quarter fighting. Fellblades may not use missile warpons of any sort.

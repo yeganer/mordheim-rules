@@ -25,6 +25,8 @@ A Dark Elf warband must include a minimum of three models. You have 500 gold cro
 * __Shades__: Your warband may include up to five Shades.
 * __Cold One Hounds__: Your warband may include up to two hounds if it also includes a Beastmaster.
 
+{{< hero >}}
+
 ## Equipment
 The following lists are used by Dark Elf warbands to pick their weapons:
 
