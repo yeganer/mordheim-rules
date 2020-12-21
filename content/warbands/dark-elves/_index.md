@@ -1,7 +1,7 @@
 ---
 title: "Dark Elf Warband"
 date: 2020-12-18T16:35:14+01:00
-draft: true
+draft: false
 ---
 Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves. The slaves of the Dark Elves are either worked to death in their mines, ripped apart on the altars to Khaine, their dark God, or tortured mercilessly by the Brides of Khaine, the Witch Elves. Dark Elves take a perverse delight in inflicting pain upon others just to see their victims suffer.
 
@@ -30,16 +30,16 @@ The following lists are used by Dark Elf warbands to pick their weapons:
 
 __Dark Elf Equipment List__
 {{< table style="table-border" >}}
-| Hand-to-hand Combat Weapons | |
-| --- | ---: |
-| Dagger | 1st free/2 GC |
-| Axe | 5 GC |
-| Sword | 10 GC |
-| Double-handed weapon | 15 GC |
-| Halberd | 10 GC |
-| Spear | 10 GC |
-| Beastlash | 10 GC |
-| Dark Steel Weapon* | 2x price |
+| Hand-to-hand Combat Weapons |      |
+| --------------------------- | ---: |
+| Dagger                      | 1st free/2 GC |
+| Axe                         | 5 GC |
+| Sword                       | 10 GC |
+| Double-handed weapon        | 15 GC |
+| Halberd                     | 10 GC |
+| Spear                       | 10 GC |
+| Beastlash                   | 10 GC |
+| Dark Steel Weapon*          | 2x price |
 {{< /table >}}
 
 {{< table style="table-floating" >}}
@@ -83,12 +83,8 @@ __Dark Elf Equipment List__
 
 *: May be taken by Heroes only.  
 **: May be taken by Heroes and Corsairs only.
-<!-- {{< table style="table-floating" >}}
-| Key        | value           |
-| ------------- |:-------------:|
-| foo | bar |
 
-{{< /table >}}
-A
-{{< test >}}
-A -->
+
+## Magic
+
+{{< spells ref="dark_elf_magic" >}}
