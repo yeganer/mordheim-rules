@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
+# Allow "offline" mode
+RelativeURLs = true
+uglyURLs = true
+
 languageCode = "de-de"
 DefaultContentLanguage = "de"
 title = "Mordheim Regelwerk"
