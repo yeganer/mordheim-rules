@@ -12,18 +12,12 @@ In einer Administrator powershell/cmd folgendes ausführen um alle tools zu inst
 choco install vscode git github-desktop hugo-extended -confirm
 ```
 
-* [Visual Studio Code](https://code.visualstudio.com/) installieren
+* Visual Studio Code Extensions installieren
   * Markdown All in One (3.4.0)
   * YAML (0.13.0)
   * (optional) Hugo Language and Syntax Support
 * [GitHub](https://github.com) Account anlegen
-* [GitHub Desktop](https://desktop.github.com/) installieren (oder ein anderer Git Client)
 * [GitHub Learning Lab zu Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
-* Hugo runterladen (z.B. [Chocolatey](https://chocolatey.org/))
-  
-  * Hugo installieren (in einer Admin cmd/powershell):
-  `choco install hugo-extended -confirm`
-
 
 ## TODO
 - [ ] Continious Integration Pipeline (GitHub Actions)
