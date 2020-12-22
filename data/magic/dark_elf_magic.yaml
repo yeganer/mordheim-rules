@@ -8,7 +8,7 @@ spells:
     fluff: Whispering an ancient incantation the Sorceress conjures a bolt of pure dark energy and unleashes it from her outstretched hand.
     description: |
         The bolt of doom may be targeted at any enemy model in line of sight.
-        The Doombolt has an **18"** range and causes a Strength 4 hit. If the target model is wounded,
+        The Doombolt has an **18"** range and causes a Strength **5** hit. If the target model is wounded,
         then the next closest model within 3" is also hit on a 4+, at -1 Strength than the previous hit.
         The bolt will keep leaping until there are no more targets within range or until its Strength drops to a one.
         Each model can only be hit by a bolt once per turn. Take armour saves as normal.

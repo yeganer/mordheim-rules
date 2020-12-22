@@ -30,7 +30,7 @@ A Dark Elf warband must include a minimum of three models. You have 500 gold cro
 ## Equipment
 The following lists are used by Dark Elf warbands to pick their weapons:
 
-__Dark Elf Equipment List__
+### Dark Elf Equipment List
 {{< table style="table-border" >}}
 | Hand-to-hand Combat Weapons |      |
 | --------------------------- | ---: |
@@ -87,6 +87,6 @@ __Dark Elf Equipment List__
 **: May be taken by Heroes and Corsairs only.
 
 
-## Magic
+## [Dark Elf Magic]({{< ref "dark_elf_magic.md" >}})
 
-{{< spells ref="dark_elf_magic" >}}
+{{< spells ref="dark_elf_magic"  fluff="true" >}}
