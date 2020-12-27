@@ -1,8 +1,0 @@
-{{ range $elem_key, $elem_val := .Site.Data.warbands.example.heroes }}
-{{ $elem_key }}:
-| Key        | value           |
-| ------------- |:-------------:|
-{{ range $k, $v :=  $elem_val }}
-| {{ $k }} | {{ $v }}      |
-{{ end }}
-{{ end }}

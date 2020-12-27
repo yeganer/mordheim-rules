@@ -1,0 +1,11 @@
+<tr>
+    <th class="text-center">{{ .data.difficulty }}+</th>
+    <th>{{ .data.d6 }} - {{ .data.name }}</th>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        {{ if .fluff }}<p class="font-italic">{{ .data.fluff | markdownify }}</p>{{ end }}
+        <p>{{ .data.description | markdownify }}</p>
+    </td>
+</tr>

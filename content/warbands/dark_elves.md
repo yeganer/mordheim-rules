@@ -88,5 +88,3 @@ The following lists are used by Dark Elf warbands to pick their weapons:
 
 
 ## [Dark Elf Magic]({{< ref "dark_elf_magic.md" >}})
-
-{{< spells ref="dark_elf_magic"  fluff="true" >}}

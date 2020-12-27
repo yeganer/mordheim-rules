@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+---------------------------------
+{{ with .Site.GetPage "/magic/dark_elf_magic" }}
+    {{ .Render "spell_list" }}
+{{ end }}
+
+    {{ if .IsTranslated }}
+        <h4>{{ i18n "translations" }}</h4>
+        <ul>
+            {{ range .Translations }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Lang }}: {{ .Title }}</a>
+                </li>
+            {{ end }}
+          </ul>
+    {{ end }}
+
+{{ end }}
