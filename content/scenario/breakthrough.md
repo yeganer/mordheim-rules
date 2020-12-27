@@ -1,16 +1,19 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Breakthrough"
 draft: false
-attribution: btb/core/annual/eif/author
+sourcebook: core
 ---
-Background story goes here
+When news of a huge deposit of wyrdstone starts circulating, warbands will mount expeditions to unearth the wealth. However, their rivals often try to block them, eager to claim all the wyrdstone for themselves.
 
 ## Terrain
-Instructions to set up terrain go here.
+Each player takes it in turn to place a piece of terrain,
+either a ruined building, tower, or other similar item.
+We suggest that the terrain is set up within an area
+roughly 4' x 4'.
 
 ## Warbands
 ### Number of players
-
+2
 ### Attacker/Defender
 Clear instructions who is what goes here.
 ### Set-up
