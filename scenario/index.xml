@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scenarios on Mordheim Regelwerk</title>
+    <link>/scenario.html</link>
+    <description>Recent content in Scenarios on Mordheim Regelwerk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language><atom:link href="/scenario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakthrough</title>
+      <link>/scenario/breakthrough.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/scenario/breakthrough.html</guid>
+      <description>When news of a huge deposit of wyrdstone starts circulating, warbands will mount expeditions to unearth the wealth. However, their rivals often try to block them, eager to claim all the wyrdstone for themselves.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Skirmish</title>
+      <link>/scenario/skirmish.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/scenario/skirmish.html</guid>
+      <description>In the vastness of the Mordheim ruins there is always the risk of running into a rival warband. While two groups sometimes pass each other without a fight, more often than not there is a vicious battle amongst the ruins. If a warband can drive their rivals away, they will have a larger area in which to search for wyrdstone.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item.</description>
+    </item>
+    
+  </channel>
+</rss>

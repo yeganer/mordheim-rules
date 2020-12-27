@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Magic on Mordheim Regelwerk</title>
+    <link>/magic.html</link>
+    <description>Recent content in Magic on Mordheim Regelwerk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 18 Dec 2020 16:35:14 +0100</lastBuildDate><atom:link href="/magic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Elf Magic</title>
+      <link>/magic/dark_elf_magic.html</link>
+      <pubDate>Fri, 18 Dec 2020 16:35:14 +0100</pubDate>
+      
+      <guid>/magic/dark_elf_magic.html</guid>
+      <description>Difficulty Name    9+ 1 - Doombolt     The bolt of doom may be targeted at any enemy model in line of sight. The Doombolt has an 18&amp;quot; range and causes a Strength 4 hit. If the target model is wounded, then the next closest model within 3&amp;quot; is also hit on a 4+, at -1 Strength than the previous hit. The bolt will keep leaping until there are no more targets within range or until its Strength drops to a one.</description>
+    </item>
+    
+  </channel>
+</rss>

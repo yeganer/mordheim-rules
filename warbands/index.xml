@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warbands on Mordheim Regelwerk</title>
+    <link>/warbands.html</link>
+    <description>Recent content in Warbands on Mordheim Regelwerk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 18 Dec 2020 16:35:14 +0100</lastBuildDate><atom:link href="/warbands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Elf Warband</title>
+      <link>/warbands/dark_elves.html</link>
+      <pubDate>Fri, 18 Dec 2020 16:35:14 +0100</pubDate>
+      
+      <guid>/warbands/dark_elves.html</guid>
+      <description>Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves.</description>
+    </item>
+    
+  </channel>
+</rss>
