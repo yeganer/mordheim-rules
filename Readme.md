@@ -16,6 +16,7 @@ choco install vscode git github-desktop hugo-extended -confirm
   * Markdown All in One (3.4.0)
   * YAML (0.13.0)
   * (optional) Hugo Language and Syntax Support
+  * GitHub Pull Requests and Issues
 * [GitHub](https://github.com) Account anlegen
 * [GitHub Learning Lab zu Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)
 
