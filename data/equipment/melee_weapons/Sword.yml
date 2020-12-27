@@ -1,0 +1,25 @@
+sword:
+  name: Sword   
+  fluff: A basic sword
+  range: melee
+  strength: # default: as user
+  class: sword
+  crit_class: bladed
+  price: 10
+  rarity: common
+  special:
+    Parry
+
+axe:
+  name: Axe  
+  fluff: Your everyday chopping tool, used for trees, doors and human beings.
+  range: melee
+  strength: # default: as user
+  modifier: 
+   Sv: -1
+  class: axes
+  crit_class: bladed
+  price: 5
+  rarity: common
+  special:
+    Parry   
