@@ -4,20 +4,10 @@
 
 {{ .Content }}
 
----------------------------------
-{{ with .Site.GetPage "/magic/dark_elf_magic" }}
-    {{ .Render "spell_list" }}
-{{ end }}
-
-    {{ if .IsTranslated }}
-        <h4>{{ i18n "translations" }}</h4>
-        <ul>
-            {{ range .Translations }}
-                <li>
-                    <a href="{{ .RelPermalink }}">{{ .Lang }}: {{ .Title }}</a>
-                </li>
-            {{ end }}
-          </ul>
+{{ if .Params.magic_list }}
+    {{ with .Site.GetPage (printf "/magic/%s" .Params.magic_list) }}
+        {{ .Render "compact" }}
     {{ end }}
+{{ end }}
 
 {{ end }}

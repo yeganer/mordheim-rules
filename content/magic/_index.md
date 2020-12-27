@@ -1,0 +1,4 @@
+---
+title: Magic
+draft: false
+---

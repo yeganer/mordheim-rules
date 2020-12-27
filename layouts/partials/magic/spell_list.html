@@ -1,10 +1,9 @@
-{{ $data := .Params }}
-{{ $show_fluff := true }}
+{{ $data := .data }}
+{{ $show_fluff := .show_fluff}}
 {{ if $show_fluff }}
 {{ else }}
 {{ $show_fluff = false }}
 {{ end }}
-
 {{ if $show_fluff }}
 <p>
 {{ $data.fluff | markdownify }}
