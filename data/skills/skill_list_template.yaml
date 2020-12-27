@@ -1,0 +1,45 @@
+name: #skill_list name
+type: #(vanilla, common, special)
+attribution: #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  - tier_0: #---------------------------------------------------------------------------------
+
+    - name: #skill name
+      fluff: #what is the story
+      prerequisite: #special prerequisites e.g. 'can only be taken by the warband leader'
+      description: #rules desribing the effect of the skill
+    
+  - tier_1: #---------------------------------------------------------------------------------
+
+    - name: 
+      fluff: 
+      prerequisite: 
+      description: 
+
+    - name: 
+      fluff: 
+      prerequisite: 
+      description: 
+
+  - tier_2: #---------------------------------------------------------------------------------
+
+    - name: 
+      fluff: 
+      prerequisite: 
+      description: 
+
+    - name: 
+      fluff: 
+      prerequisite: 
+      description: 
+
+  - tier_3: #---------------------------------------------------------------------------------
+
+    - name: 
+      fluff: 
+      prerequisite: 
+      description: 
+        
