@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<h1>{{ .Title }} foo</h1>
+
+{{ if .Content }}
+    {{ .Content }}
+{{ else }}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Roll</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Pages }}
+            <tr>
+                <td>{{.Params.d12_result}}</td>
+                <td><a href="{{ .Permalink}}">{{.LinkTitle}}</a>    </td>
+            </tr>
+        {{ end }}
+    </tbody>
+</table>
+{{ end }}
+
+{{ end }}
