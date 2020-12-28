@@ -49,7 +49,7 @@
 	"content": ""
 },
 {
-	"uri": "/scenario/breakthrough.html",
+	"uri": "/scenario/core/breakthrough.html",
 	"title": "Breakthrough",
 	"tags": null,
 	"description": "",
@@ -58,6 +58,13 @@
 {
 	"uri": "/categories.html",
 	"title": "Categories",
+	"tags": null,
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/scenario/core.html",
+	"title": "Core Scenarios",
 	"tags": null,
 	"description": "",
 	"content": ""
@@ -84,7 +91,7 @@
 	"content": " Core Scenarios Table:\n   Roll Core Scenario BTB Scenarios Empire in Flames Annual     7 Skirmish - - -     "
 },
 {
-	"uri": "/scenario/skirmish.html",
+	"uri": "/scenario/core/skirmish.html",
 	"title": "Skirmish",
 	"tags": null,
 	"description": "",

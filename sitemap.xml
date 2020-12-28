@@ -38,11 +38,15 @@
   </url>
   
   <url>
-    <loc>/scenario/breakthrough.html</loc>
+    <loc>/scenario/core/breakthrough.html</loc>
   </url>
   
   <url>
     <loc>/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>/scenario/core.html</loc>
   </url>
   
   <url>
@@ -58,7 +62,7 @@
   </url>
   
   <url>
-    <loc>/scenario/skirmish.html</loc>
+    <loc>/scenario/core/skirmish.html</loc>
   </url>
   
   <url>
