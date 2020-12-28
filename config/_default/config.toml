@@ -1,6 +1,4 @@
-# Allow "offline" mode
-RelativeURLs = true
-uglyURLs = true
+# Set baseURL in environment configs
 
 languageCode = "de-de"
 DefaultContentLanguage = "de"
