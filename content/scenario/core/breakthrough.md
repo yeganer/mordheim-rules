@@ -2,7 +2,7 @@
 title: "Breakthrough"
 draft: false
 attribution: core
-d12_result: "??"
+d12_result: 8
 ---
 When news of a huge deposit of wyrdstone starts circulating, warbands will mount expeditions to unearth the wealth. However, their rivals often try to block them, eager to claim all the wyrdstone for themselves.
 

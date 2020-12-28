@@ -2,6 +2,7 @@
 title: "Surprise Attack"
 draft: false
 attribution: core
+d12_result: 9
 ---
 One warband is out searching the ruins of Mordheim for loot when it is attacked by an enemy warband. The defenders are spread thinly and must muster a defence quickly to drive off their attackers.
 ## Terrain

@@ -2,6 +2,7 @@
 title: "Occupy"
 draft: false
 attribution: core
+d12_result: 6
 ---
 This scenario takes place in a part of Mordheim where the buildings are bursting with shards of wyrdstone and other wealth. Taking and holding these buildings means that your warband gains rich pickings. Unfortunately, your opponent has the same idea.
 ## Terrain

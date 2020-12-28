@@ -2,6 +2,7 @@
 title: "Hidden Treasure"
 draft: false
 attribution: core
+d12_result: 4
 ---
 There is a rumour that one of the ruined buildings has a concealed cellar with a treasure chest hidden in it. Two rival warbands have heard about the cellar and are now searching the area. Who knows what they will find?
 ## Terrain

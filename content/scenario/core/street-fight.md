@@ -2,6 +2,7 @@
 title: "Street Fight"
 draft: false
 attribution: core
+d12_result: 3
 ---
 Often two warbands will come face to face with each other in the narrow streets of Mordheim. Sometimes they pass each other without incident but more often the meeting ends in bloodshed.
 ## Terrain

@@ -2,6 +2,7 @@
 title: "Chance Encounter"
 draft: false
 attribution: core
+d12_result: 10
 ---
 Both warbands have completed their daily search of the ruins and are on their way back to their encampment when they run into each other. Neither side was expecting a fight, and the warband that reacts the quickest has the advantage.
 ## Terrain

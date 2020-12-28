@@ -2,6 +2,7 @@
 title: "Defend the Find"
 draft: false
 attribution: core
+d12_result: 11
 ---
 Often a warband finds a building with a hoard of wyrdstone or other treasure inside, only to be challenged by a rival warband. This usually leads to conflict as it is unlikely that either side will be willing to give up the wealth easily.
 ## Terrain

@@ -18,4 +18,4 @@ Core Scenarios Table:
 |  11   | [Defend the Find]({{< ref "scenario/core/defend-the-find.md">}}) | - | - | - |
 |  12   | The player with the lower warband rating may choose which scenario is played. | - | - | - |
 
-{{<scenario/core/table >}}
+{{< /table >}}

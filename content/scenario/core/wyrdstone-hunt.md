@@ -2,6 +2,7 @@
 title: "Wyrdstone Hunt"
 draft: false
 attribution: core
+d12_result: 5
 ---
 Scattered in the ruins of Mordheim are innumerable tiny shards of priceless wyrdstone. It often happens that two warbands come upon the same area and only a battle can determine who will pick the spoils.
 
