@@ -2,6 +2,7 @@
 title: Skirmish
 draft: false
 attribution: core
+d12_result: 7
 ---
 In the vastness of the Mordheim ruins there is always
 the risk of running into a rival warband. While two

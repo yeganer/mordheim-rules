@@ -4,7 +4,7 @@ draft: false
 ---
 Exploration Tables:
 {{< table >}}
-| [Tabel for Core Scenario]({{< ref "./ET_Core_Scenario.md" >}}) | [Tabel for BTB Scenarios]({{< ref "scenario/skirmish.md" >}})| [Tabel for Empire in Flames]({{< ref "scenario/skirmish.md" >}})| [Tabel for Annual]({{< ref "scenario/skirmish.md" >}}) |
+| [Tabel for Core Scenario]({{< ref "ET_Core_Scenario.md" >}}) | [Tabel for BTB Scenarios]({{< ref "scenario/core/skirmish.md" >}})| [Tabel for Empire in Flames]({{< ref "scenario/core/skirmish.md" >}})| [Tabel for Annual]({{< ref "scenario/core/skirmish.md" >}}) |
 | - | - | - | - |
 {{< /table >}}
 
