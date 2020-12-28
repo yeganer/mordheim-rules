@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+    {{ .Content }}
+{{ end }}
+{{ partial "magic/spell_list" (dict "data" .Params "show_fluff" true) }}
+{{ end }}
