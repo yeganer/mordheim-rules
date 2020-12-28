@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on Mordheim Regelwerk</title>
-    <link>/</link>
+    <link>https://yeganer.github.io/mordheim-rules/</link>
     <description>Recent content in Index on Mordheim Regelwerk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Fri, 18 Dec 2020 16:35:14 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 16:35:14 +0100</lastBuildDate><atom:link href="https://yeganer.github.io/mordheim-rules/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Elf Magic</title>
-      <link>/magic/dark_elf_magic.html</link>
+      <link>https://yeganer.github.io/mordheim-rules/magic/dark_elf_magic/</link>
       <pubDate>Fri, 18 Dec 2020 16:35:14 +0100</pubDate>
       
-      <guid>/magic/dark_elf_magic.html</guid>
+      <guid>https://yeganer.github.io/mordheim-rules/magic/dark_elf_magic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Breakthrough</title>
-      <link>/scenario/core/breakthrough.html</link>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/breakthrough/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/scenario/core/breakthrough.html</guid>
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/breakthrough/</guid>
       <description>When news of a huge deposit of wyrdstone starts circulating, warbands will mount expeditions to unearth the wealth. However, their rivals often try to block them, eager to claim all the wyrdstone for themselves.
 Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
     </item>
     
     <item>
       <title>Dark Elf Warband</title>
-      <link>/warbands/dark_elves.html</link>
+      <link>https://yeganer.github.io/mordheim-rules/warbands/dark_elves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/warbands/dark_elves.html</guid>
+      <guid>https://yeganer.github.io/mordheim-rules/warbands/dark_elves/</guid>
       <description>Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves.</description>
     </item>
     
     <item>
       <title>Exploration Table Core Scenario</title>
-      <link>/exploration/et_core_scenario.html</link>
+      <link>https://yeganer.github.io/mordheim-rules/exploration/et_core_scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/exploration/et_core_scenario.html</guid>
+      <guid>https://yeganer.github.io/mordheim-rules/exploration/et_core_scenario/</guid>
       <description>Doubles:    D66 Name Fluff Result     (11) Well The public wells, of which there were several in Mordheim, were covered by rooves raised upon pillars and adorned with carvings and fountains. The city was proud of its watersystem. Unfortunately, like all the other wells,this one is in a parlous state and undoubtedlypolluted with wyrdstone Choose one of your Heroes and roll a D6. If theresult is equal to or lower than his Toughness, hefinds one shard of wyrdstoneat the bottom of thewell.</description>
     </item>
     
     <item>
       <title>Skirmish</title>
-      <link>/scenario/core/skirmish.html</link>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/skirmish/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/scenario/core/skirmish.html</guid>
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/skirmish/</guid>
       <description>In the vastness of the Mordheim ruins there is always the risk of running into a rival warband. While two groups sometimes pass each other without a fight, more often than not there is a vicious battle amongst the ruins. If a warband can drive their rivals away, they will have a larger area in which to search for wyrdstone.
 Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item.</description>
     </item>

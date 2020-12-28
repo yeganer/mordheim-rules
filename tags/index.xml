@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mordheim Regelwerk</title>
-    <link>/tags.html</link>
+    <link>https://yeganer.github.io/mordheim-rules/tags/</link>
     <description>Recent content in Tags on Mordheim Regelwerk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language><atom:link href="https://yeganer.github.io/mordheim-rules/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
