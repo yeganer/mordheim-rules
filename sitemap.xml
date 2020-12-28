@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/warbands/dark_elves.html</loc>
-    <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
   </url>
@@ -33,11 +28,6 @@
   </url>
   
   <url>
-    <loc>/warbands.html</loc>
-    <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/scenario/core/breakthrough.html</loc>
   </url>
   
@@ -47,6 +37,10 @@
   
   <url>
     <loc>/scenario/core.html</loc>
+  </url>
+  
+  <url>
+    <loc>/warbands/dark_elves.html</loc>
   </url>
   
   <url>
@@ -67,6 +61,10 @@
   
   <url>
     <loc>/tags.html</loc>
+  </url>
+  
+  <url>
+    <loc>/warbands.html</loc>
   </url>
   
 </urlset>
