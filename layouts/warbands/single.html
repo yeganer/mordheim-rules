@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ if .Params.magic_list }}
+    {{ with .Site.GetPage (printf "/magic/%s" .Params.magic_list) }}
+        {{ .Render "compact" }}
+    {{ end }}
+{{ end }}
+
+{{ end }}

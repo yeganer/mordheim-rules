@@ -2,6 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 draft: false
 attribution: btb/core/annual/eif/author
+d12_result: Add dice number here!
+player_count: 2
 ---
 Background story goes here
 ## Terrain
