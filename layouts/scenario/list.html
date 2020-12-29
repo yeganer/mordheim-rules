@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1>{{ .Title }} foo</h1>
+<h1>{{ .Title }}</h1>
 
 {{ if .Content }}
     {{ .Content }}
@@ -13,10 +13,11 @@
         </tr>
     </thead>
     <tbody>
-        {{ range .Pages }}
+        {{ range sort .Pages ".Params.d12_result" "asc" }}
             <tr>
                 <td>{{.Params.d12_result}}</td>
-                <td><a href="{{ .Permalink}}">{{.LinkTitle}}</a>    </td>
+                <td>
+                    {{ if .Content }}<a href="{{ .Permalink}}">{{ end }} {{.LinkTitle}} {{ if .Content }}</a>{{ end }}</td>
             </tr>
         {{ end }}
     </tbody>
