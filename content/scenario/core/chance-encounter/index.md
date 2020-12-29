@@ -21,7 +21,8 @@ N/A
 2. The first player to deploy sets up his entire warband in deployment zone A as shown below. He may choose which quarter of the table to nominate as deployment zone A.
 3. The second warband can then be set up in deployment zone B, but no model may be set up within 14" of any enemy model.  
 
-![Deployment Zones](deployment_chance_encounter.png)
+{{< figure src="deployment_zone.png" title="Deployment Zone">}}
+
 ## Special Rules
 Each warband is carrying D3 shards of wyrdstone at the beginning of the battle. Mark down the number each warband has.
 ## Starting the game
