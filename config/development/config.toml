@@ -1,0 +1,3 @@
+# Allow "offline" mode
+RelativeURLs = true
+uglyURLs = true
