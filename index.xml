@@ -27,12 +27,32 @@ Terrain Each player takes it in turn to place a piece of terrain, either a ruine
     </item>
     
     <item>
+      <title>Chance Encounter</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/chance-encounter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/chance-encounter/</guid>
+      <description>Both warbands have completed their daily search of the ruins and are on their way back to their encampment when they run into each other. Neither side was expecting a fight, and the warband that reacts the quickest has the advantage.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
+    </item>
+    
+    <item>
       <title>Dark Elf Warband</title>
       <link>https://yeganer.github.io/mordheim-rules/warbands/dark_elves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yeganer.github.io/mordheim-rules/warbands/dark_elves/</guid>
       <description>Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves.</description>
+    </item>
+    
+    <item>
+      <title>Defend the Find</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/defend-the-find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/defend-the-find/</guid>
+      <description>Often a warband finds a building with a hoard of wyrdstone or other treasure inside, only to be challenged by a rival warband. This usually leads to conflict as it is unlikely that either side will be willing to give up the wealth easily.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
     </item>
     
     <item>
@@ -45,12 +65,81 @@ Terrain Each player takes it in turn to place a piece of terrain, either a ruine
     </item>
     
     <item>
+      <title>Hidden Treasure</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/hidden-treasure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/hidden-treasure/</guid>
+      <description>There is a rumour that one of the ruined buildings has a concealed cellar with a treasure chest hidden in it. Two rival warbands have heard about the cellar and are now searching the area. Who knows what they will find?
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Occupy</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/occupy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/occupy/</guid>
+      <description>This scenario takes place in a part of Mordheim where the buildings are bursting with shards of wyrdstone and other wealth. Taking and holding these buildings means that your warband gains rich pickings. Unfortunately, your opponent has the same idea.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
+    </item>
+    
+    <item>
       <title>Skirmish</title>
       <link>https://yeganer.github.io/mordheim-rules/scenario/core/skirmish/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yeganer.github.io/mordheim-rules/scenario/core/skirmish/</guid>
       <description>In the vastness of the Mordheim ruins there is always the risk of running into a rival warband. While two groups sometimes pass each other without a fight, more often than not there is a vicious battle amongst the ruins. If a warband can drive their rivals away, they will have a larger area in which to search for wyrdstone.
+Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item.</description>
+    </item>
+    
+    <item>
+      <title>Street Fight</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/street-fight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/street-fight/</guid>
+      <description>Often two warbands will come face to face with each other in the narrow streets of Mordheim. Sometimes they pass each other without incident but more often the meeting ends in bloodshed.
+Terrain Set up all the buildings into a single street, with no gaps along the sides. Behind the buildings are impassable ruins, although the buildings themselves are still accessible. The only way out is along the street. The street may be as winding as you like and should not be too narrow to fight in, but can have narrow bottlenecks at some points.</description>
+    </item>
+    
+    <item>
+      <title>Surprise Attack</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/surprise-attack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/surprise-attack/</guid>
+      <description>One warband is out searching the ruins of Mordheim for loot when it is attacked by an enemy warband. The defenders are spread thinly and must muster a defence quickly to drive off their attackers.
+Terrain Starting with the attacker, each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item. We suggest that the terrain is set up within an area roughly 4&#39; x 4&#39;.</description>
+    </item>
+    
+    <item>
+      <title>The player with the lower warband rating may choose which scenario is played.</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The player with the lower warband rating may choose which scenario is played.</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wyrdstone Hunt</title>
+      <link>https://yeganer.github.io/mordheim-rules/scenario/core/wyrdstone-hunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yeganer.github.io/mordheim-rules/scenario/core/wyrdstone-hunt/</guid>
+      <description>Scattered in the ruins of Mordheim are innumerable tiny shards of priceless wyrdstone. It often happens that two warbands come upon the same area and only a battle can determine who will pick the spoils.
+In this scenario, warbands encounter each other while scavenging in the same ruined warehouse, vault, temple or other such potentially rich building.
 Terrain Each player takes it in turn to place a piece of terrain, either a ruined building, tower, or other similar item.</description>
     </item>
     
