@@ -1,23 +1,638 @@
-sword:
-  name: Sword   
-  fluff: A basic sword
-  range: melee
-  strength: # default: as user
-  class: sword
-  crit_class: bladed
-  price: 10
-  rarity: common
-  special:
-    Parry
+Athame:
+ name: Athame
+ fluff: A magic weapon shaped like a common Knife or Dagger. It breaks on use but unleashes a small burst of magical energy when doing so. 
+ range: melee 
+ modifier: 
+   Sv: +1 
+ class: Dagger 
+ price: 20gc 
+ rarity: Rare 9
+ limited_to:
+   - Any Warband that has at least one spellcaster or prayer user.
+ special: 
+   no_crit: This weapon can not score critical hits
+   magic_weapon: The attack made with this weapon counts as magical.
+   strike_once: Only one Attack may ever be carried out with the Athame, after that it is broken and can not be recovered. Should you miss that one you may try again.
+
 
 axe:
   name: Axe  
   fluff: Your everyday chopping tool, used for trees, doors and human beings.
   range: melee
-  strength: # default: as user
   modifier: 
    Sv: -1
   class: axes
   crit_class: bladed
   price: 5
   rarity: common
+
+Ball&Chain:
+  name: Ball and Chain
+  fluff: |
+    Used by mad Goblin Fanatics, these are little more than a Weight on a Rope or Chain that is whirled around the User, crushing friend and foe alike. This 'weapon' is also likely to hurt its wielder as much as its victims.
+  range: melee
+  modifier:
+    M: Randomized
+    S: +2
+  crit_class: blunt
+  price: 15gc
+  rarity: common
+  limited_to:
+    - Greenskin Warbands
+  special:
+    2_Handed: This Weapon requires both hands to use
+    Multi-Wounds: Every successful wound deals D3 wounds to the target
+    Dangerous_to_use: If this weapon was used during the game, the user has to test for serious injury, even if he was not taken out of action, but he is only dead on a roll of a 1
+    Random_Movement:
+     Fluff: The only way to wield a Ball and Chain is to swing it around in large circles, using your body as a counter-weight. Unfortunately this is not a very controllable fighting style, and as soon as he starts swinging his Ball and Chain, a warrior starts to lose control. The first turn he starts swinging the Ball and Chain, the model is moved 2D6" in a direction nominated by the controlling player. In his subsequent Movement phases, roll a D6 to determine what the model does
+           D6 Effect 
+     Table:
+       - 1: The model trips and strangles himself with the chain. The model is taken Out Of Action. When rolling for Injury after the game, a roll of 1-3 means the model is out permanently, instead of the normal 1-2.
+       - 2-5: The model moves 2D6" in a direction nominated by the controlling player.
+       - 6: The model moves 2D6" in a random direction. If the player owns a Scatter dice (available from Games Workshop stores), roll that to determine direction. If not, then roll a D6 1 – Straight Forward, 2-3 – Right, 4-5 – Left, 6 – Straight Back
+
+Brass_Knuckles:
+ name: Brass Knuckles 
+ fluff: Worn almost like a glove, these make boxing a far bloodier sport.
+ range: melee 
+ class: Dagger 
+ crit_class: unarmed
+ price: 5gc 
+ rarity: common 
+ special:
+   unlimited_access: As punching somebody is not that difficult in theory, using brass knuckles does not require special training. Thus, the skill weapons training is not necessary to use this weapon.
+
+Brazier_Iron:
+ name: Brazier Iron
+ fluff: A tool normally used to mark cattle as one's own. The crazed witch hunters of Mordheim use these terrifying devices as weapons, branding their sign on anyone they deem a heretic to Sigmar.
+ range: melee
+ modifier:
+   S: +1
+ crit_class: blunt
+ price: 35gc
+ rarity: Rare 7
+ limited_to: 
+  - Witch hunters
+special:
+ burning: On every hit, roll an additional D6, on a 5+, the victim is set on fire.
+
+Broadsword:
+ name: Broadsword
+ fluff: A special variant of the sword, only carried by members of the Bretonnian Chapel Guard.
+ range: melee
+ modifier: 
+   S: +1
+ class: sword
+ crit_class: bladed
+ price: 15gc 
+ rarity: common
+ limited_to: 
+  - Bretonnian Chapel Guard
+ special:
+   Difficult_to_use: May only be combined with a shield in the second hand.
+   strike_last:  Broadswords weapons are so heavy that the model using them always strikes last, even when charging. Just like a Double-Handed weapon, learning the skill 'Strongman' negates 'Strike Last'.
+
+Cathar_Punch_Dagger:
+ name: Cathar Punch Dagger 
+ fluff: A specialised Dagger that is mostly used to finish off armored opponents lying on the ground. This Dagger is punched through the weak points of armor.
+ range: melee 
+ modifier:
+   Sv: -1 
+ class: Dagger 
+ crit_class: thrusting
+ price: 15gc 
+ rarity: Rare 7
+
+Cathayan_Longsword:
+ name: Cathayan Longsword
+ fluff: A special sword carried only by the noble warrior caste from far cathay. They are forged only by master Weaponsmiths and extremely rare to find in a place such as Mordheim.
+ range: melee
+ modifier: 
+   WS: +1
+   I: +1 
+   Sv: -1
+ class: Sword
+ crit_class: bladed
+ price: 75+2D6gc
+ rarity: Rare 12
+ special: 
+   parry: May be used to parry incoming blows
+
+Censer:
+ name: Censer
+ fluff: A flail wielded by the skaven monks of Clan Pestilens. It uses balls filled with poisonous slime as weights and exudes clouds of gas when swung.
+ range: melee
+ modifier: 
+   S: +2
+ crit_class: blunt
+ price: 40gc
+ rarity: Rare 9
+ limited_to:
+   - Clan Pestilens Skaven
+ special:
+   Heavy: The +2 Strength bonus applies only in the first round of combat. Learning the untiring skill makes the bonus permanent.
+   Two-Handed: This weapon requires both hands to use
+   Fog_of_Death: On a hit roll of 6, the model hit suffers a -1 modifier to its WS, Str and I for the rest of the combat. On a hit roll of 1, the same modifiers apply to the user.
+
+Chain-Sticks:
+ name: Chain-Sticks
+ fluff: Consisting of wooden bars, tied together, chain sticks are enhanced with iron or steel to gain more striking power. Compared to a flail it is light, providing the bearer more flexibility in combat.
+ range: melee 
+ modifier: 
+   A: +2 
+ crit_class: blunt 
+ price: 20gc 
+ rarity: Rare 7 
+ limited_to:
+   - Battle Monks 
+   - Dragon Monks 
+ special: 
+  A set of chain sticks allows its wielder to unleash a furious bludgeoning. A warrior armed with chain sticks gets +2 Attacks. This bonus only applies in the first turn of each hand-to-hard combat. Using chain sticks always counts as having two hand weapons.
+
+Club:
+ name: Club
+ fluff: Your basic hammer, club or mace. Used to tenderize a steak or crush a skull, to your liking.
+ range: melee
+ crit_class: blunt
+ price: 3gc 
+ rarity: common
+ special:
+   Stunning: successful wounds with this weapon stun the target on a roll of 2-4
+
+Dagger:
+ name: Dagger
+ fluff: Carried by everyone with hands and a basic understanding of sharp edges and used for literally any activities, from back scratching to eating to knife fighting.
+ range: melee
+ modifier:
+   Sv: +1 
+ class: Daggers
+ crit_class: thrusting
+ price: free/2gc
+ rarity: common
+
+Disease Dagger:
+ name: Disease Dagger
+ fluff: Rusted, dirty, covered in sickening filth, these Daggers are used by the followers of Nurgle.
+ range: melee
+ modifier:
+   Sv: +1 
+ class: Daggers
+ crit_class: thrusting
+ price: 15gc 
+ rarity: Rare 8
+ limited_to: 
+   - Clan Pestilens Skaven
+   - Carnival of Chaos 
+ special:
+   Venomous: Hit rolls of a 6 wound automatically, roll to see if you crit. No further venom may be applied to the Disease Dagger.
+
+Double-Handed_Axe:
+ name: Double-Handed Axe
+ fluff: A massive Battleaxe that requires both hands to wield.
+ range: melee
+ modifier: 
+   S: +2 
+ class: Axe
+ crit_class: bladed
+ price: 15gc 
+ rarity: common
+ special: 
+   strike_last: The weight of this weapon makes its user strike last in combat, even when charging. Learning the strongman skill negates this effect. 
+
+Double-Handed_Hammer:
+ name: Double-Handed Hammer
+ fluff: A massive Club or Hammer that requires both hands to wield.
+ range: melee
+ modifier: 
+   S: +2 
+ crit_class: blunt
+ price: 15gc 
+ rarity: common
+ special: 
+   strike_last: The weight of this weapon makes its user strike last in combat, even when charging. Learning the strongman skill negates this effect. 
+
+Double-Handed_Sword:
+ name: Double-Handed Sword
+ fluff: A massive Bihander that requires both hands to wield.
+ range: melee
+ modifier: 
+   S: +2 
+ class: Sword
+ crit_class: bladed
+ price: 15gc 
+ rarity: common
+ special: 
+   strike_last: The weight of this weapon makes its user strike last in combat, even when charging. Learning the strongman skill negates this effect. 
+
+Double-Handed_Thrusting_Weapon:
+ name: Double-Handed Thrusting Weapon
+ fluff: A massive stabbing sword or Spear that requires both hands to wield.
+ range: melee
+ modifier: 
+   S: +2 
+ crit_class: thrusting
+ price: 15gc 
+ rarity: common
+ special: 
+   strike_last: The weight of this weapon makes its user strike last in combat, even when charging. Learning the strongman skill negates this effect. 
+
+Dragon_Sword: 
+ name: Dragon Sword
+ fluff: A version of the Cathayan Longsword that is used with both hands. 
+ range: melee
+ modifier:
+   S: +1
+ class: Sword
+ crit_class: bladed
+ price: 30gc
+ rarity: Rare 10
+ special:
+   Parry: This weapon may be used to parry incoming blows.
+
+Dwarven_Axe:
+ name: Dwarven Axe
+ fluff: Dwarven Axes are more than common chopping tools. These weapons are forged by masters and inherited over generations in Dwarven clans.
+ range: melee
+ modifier:
+   Sv: -1
+ class: Axe
+ crit_class: bladed
+ price: 15gc
+ rarity: Rare 8
+ limited_to: 
+   - Dwarf Treasure hunters
+   - Troll Slayers 
+ special:
+   Parry: This weapon may be used to parry incoming blows.
+
+Fighting_Claws:
+ name: Fighting Claws 
+ fluff: Worn like Gloves, these special Weapons resemble the Claws of wild beasts and are used by assassins and madmen.
+ range: melee
+ modifier:
+   A: +1
+ crit_class: thrusting
+ price: 35gc
+ rarity: Rare 7
+ limited_to:
+   - Skaven Clan Eshin
+   - Corvus Cabal
+ special: 
+   Two-Handed: The fighting claws require both hands to use.
+   Parry: This weapon may be used to parry incoming blows.
+   Climb: The user of these claws gets a +1 to climb tests.
+   cumbersome: The user of these claws may not use any other weapons in a battle.
+
+Flail: 
+ name: Flail
+ fluff: The flail is a heavy weapon wielded with both hands. It normally consists of heavy weights, often spiked, attached to a pole or handle by means of heavy chains. Flails drain the user’s stamina quickly, but are awesomely destructive in the hands of a skilled (or unhinged) warrior.
+ range: melee
+ modifier:
+   S: +2
+ crit_class: blunt
+ price: 15gc
+ rarity: common
+ special:
+   heavy: The Strength Bonus of this weapon only applies in the first round of combat. Learning the untiring skill makes it permanent.
+
+Great_Axe:
+ name: Great Axe
+ fluff: Even larger than a Battleaxe, this weapon is a status symbol for the feared champions of the northern tribes and are used to claim heads and souls for their dark gods.
+ range: melee
+ modifier:
+   S: +2 
+   Sv: -1
+ class: Axe
+ crit_class: bladed
+ price: 25gc
+ rarity: Rare 8
+ limited_to:
+   - Marauders of Chaos
+ special:
+   Two-Handed: This weapon requires both hands to use
+   strike_last: The weight of this weapon makes the user strike last, even when charging. Learning the strongman skill negates this rule.
+
+Halberd:
+ name: Halberd
+ fluff: The halberd’s heavy blade is mounted upon a sturdy shaft of oak or steel and has a point like a spear and a cutting edge like an axe. Since it can be used to chop as well as thrust, it is an adaptable weapon, but is difficult to use inside buildings.
+ range: melee
+ modifier:
+   S: +1 
+ crit_class: thrusting
+ price: 10gc
+ rarity: common
+
+Holdout_Pistol:
+ name: Holdout Pistol 
+ fluff: The smallest of firearms made by Gunsmiths with a soft spot for Halflings. Too small to be fired accurately over any distance, this gun is used in hand to hand combat to fire point-blank shots.
+ range: melee 
+ strength: 4 
+ modifier: 
+   Sv: -1 
+ class: Dagger
+ crit_class: ranged weapons 
+ price: 10gc 
+ rarity: Rare 8
+ limited_to:
+   - Human Mercenaries 
+   - Kislevites
+   - Ostlanders 
+   - Carnival of Chaos 
+   - Dwarf Treasure Hunters 
+   - Chaos Dwarves 
+ special: 
+   fire_once: Reloading this kind of gun takes time, effort and finesse. This is done between battles in Mordheim, not while they rage. Does not require a post game Action.
+
+Horseman's_Hammer: 
+ name: Horseman's_Hammer
+ fluff: This is a great hammer similar to the ones used by the Knights of the White Wolf. Far too bulky to use in one hand, a horseman’s hammer is best suited to mounted combat, when the impetus of the horse may be used to add to the power of the weapon.
+ range: melee
+ modifier: 
+   S: +1 
+ crit_class: blunt
+ price: 30gc 
+ rarity: Rare 10
+ special:
+   Two-Handed: This weapon requires both hands to use
+   Mounted_Charge: When charging mounted, the user gets a further S bonus of +1 when using this weapon
+
+Iron_Fist:
+ name: Iron Fist 
+ fluff: An Ogre sized Handguard, this weapon is worn like a spiked glove and is used equally to parry blows and to smash faces.
+ range: melee 
+ crit_class: bladed 
+ price: 15gc 
+ rarity: common
+ limited_to: 
+   - Ogre Maneaters
+ special:
+   Parry: This weapon may be used to parry incoming blows. 
+   Gloved: Wearing this weapon prevents the user from using any kind of double-handed weapon. 
+
+Lance: 
+ name: Lance
+ fluff: Lances are long, heavy spears used by mounted shock troops to rip through armour and fling their foes to the ground. They are the chosen weapons of Knights Templar and other wealthy warriors. To use a lance requires great skill and strength, and only the richest warriors ride the heavy warhorses needed to wield these mighty weapons effectively.
+ range: melee
+ modifier: 
+   S: +2
+ crit_class: thrusting
+ price: 40gc 
+ rarity: Rare 8
+ special: 
+   Cavalry_Weapon: A Lance may only be used to fight when the user is mounted.
+   Charge_Bonus: On the Charge, the user gets a further +2 to his Strength.
+
+Man_Catcher: 
+ name: Man Catcher 
+ fluff: Used by the sadistic slave drivers of the Chaos Dwarves, this is less a weapon and more a tool to catch and control those unlucky enough to find themselves trapped within its spiky claws.
+ range: melee
+ crit_class: blunt
+ price: 25gc 
+ rarity: Rare 10
+ limited_to:
+   - Chaos Dwarves
+ special:
+   Two-Handed: This weapon requires both hands to use.
+   Catch_Slaves: This rule only applies when the Man Catcher is used by a Chaos Dwarf Hero. If that hero manages to take an enemy hero out of Action and survive the rest of the game, the enemy hero then automatically counts as captured after the game.
+
+Morning_Star:
+ name: Morning Star 
+ fluff: A morning star consists of a wooden or steel shaft with heavy chains that have spiked steel balls attached. It is very destructive and requires great skill to wield effectively
+ range: melee
+ modifier:
+   S: +1 
+ crit_class: blunt
+ price: 15gc 
+ rarity: common
+ special:
+   Heavy: The Strength bonus only applies in the first round of combat. Learning the 'untiring' skill negates this rule.
+   Difficult_to_use: The Morning Star may only be used in combination with a shield or a spiked gauntlet.
+
+Ogre_Club:
+ name: Ogre Club 
+ fluff: A primitive weapon that relies on raw, crushing strength just like their users.
+ range: melee 
+ crit_class: blunt 
+ price: 10gc 
+ rarity: common 
+ limited_to: 
+   - Ogre Maneaters
+ special:
+   Stunning: Models wounded by this weapon are stunned on an injury roll of 2-4
+   Crushing_Attack: This weapon may be used with both hands. Doing so gives it a -1 modifier to enemy saves and makes its strength count as 1 higher for determining wether your opponent is allowed a parry attempt.
+
+
+Plague_Sword: 
+ name: Plague Sword 
+ fluff: Clan Pestilens has created a hellish weapon, called the plague sword. These warpstone blades carry disease and corruption with each strike. The infection caused with each blow renders the wounded extremely ill, and will disable even the strongest foe.
+ range: melee
+ class: Sword 
+ crit_class: bladed 
+ price: 60gc
+ rarity: Rare 11
+ limited_to:
+   - Clan Pestilens Skaven 
+ special: 
+   Parry: This weapon may be used to parry incoming blows.
+   Contagious: A model that was taken out of action by a Plague Sword has to roll a D6 after the game. On a 4+ it suffers from Nurgle's Rot.
+
+Quarterstaff: 
+ name: Quarterstaff
+ fluff: Fighting staffs are traditional weapons among the warrior monk brotherhoods.
+ range: melee
+ modifier:
+   I: +1 
+ crit_class: blunt 
+ price: 25gc 
+ rarity: common 
+ limited_to:
+  - Battle Monks 
+  - Dragon Monks 
+ special: 
+   Parry: This weapon may be used to parry incoming blows. 
+   Freestyle: Although a staff does not always require two hands to use it cannot be combined with another weapon, shield, buckler, etc. However it can be combined with the Monks bare hand attacks. This means that the Monk is still getting +1 Attack.
+
+Rapier:
+ name: Rapier
+ fluff: The rapier is a long thing blade commonly used by dualists. It is a deadly, shard weapon capable of delivering a multitude of blows but lacks the power of a broadsword.
+ range: melee 
+ modifier:
+   Sv: +1
+ class: Sword 
+ crit_class: thrusting 
+ price: 15gc 
+ rarity: Rare 5
+ limited_to:
+   - Reikland Mercenaries
+   - Marienburg Mercenaries
+ special: 
+   Parry: This weapon may be used to parry incoming blows.
+   Barrage: A warrior armed with a rapier rolls to hit and wound as normal. However, if you mange to hit your opponent but fail to wound, you may attack again just as if you had another attack but at –1 to hit (down to a maximum to needing a 6 to hit). You may continue attacking as long as you hit and it is possible to strike your opponent many times, particularly if your warrior has more then one attack on his profile.
+
+Serpent_Whip:
+ name: Serpent Whip 
+ fluff: This Whip is used by the sinister and seductive Vampire Clan of Lahmia. It lacks the sheer punch of most weapons, but its bite is a poisonous one.
+ range: melee
+ modifier:
+   S: -1 
+ crit_class: unarmed 
+ price: 20gc
+ rarity: Rare 8
+ limited_to:
+   - Lahmia Vampires
+   - Blood Sisters
+ special:
+   No_Parry: Attacks made by this weapon cannot be parried.
+   Whipcrack: when the wielder charges they gain +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents they will still only receive a total of +1A. If the wielder is using two whips at the same time then they get +1A for the additional hand weapon, but only the first whip gets the whipcrack +1A
+   Poisoned: This weapon always wounds automatically on a hit roll of 6. Remember to roll for a crit. This weapon may not be covered in further poisons.
+
+Short_Sword:
+ name: Short Sword 
+ fluff: Another variety of your everyday sword used by the Bretonnian Chapel Guard. This one is shorter and lighter, like a large dagger, while it still is sturdy enough to parry blows.
+ range: melee
+ modifier:
+   Sv: +1 
+ class: Dagger
+ crit_class: thrusting
+ price: 7gc 
+ rarity: common 
+ limited_to: 
+   - Bretonnian Chapel Guard 
+ special:
+   Parry: This weapon may be used to parry incoming blows.
+
+Sigmarite_Warhammer:
+ name: Sigmarite Warhammer 
+ fluff: One of the traditional weapons of the Sisterhood, the Warhammer echoes Ghal-Maraz, the great hammer of Sigmar himself.
+ range: melee
+ modifier:
+  S: +1 
+ crit_class: blunt 
+ price: 15gc 
+ rarity: common 
+ limited_to: 
+   - Sisters of Sigmar 
+ special:
+   blessed: Attacks made with this weapon get a +1 bonus to wound undead models, mutants and casters of chaos or necromantic spells.
+
+Spear:
+ name: Spear
+ fluff: Spears range from sharpened sticks used by Goblins to the impressive cavalry spears typical of the Elves.
+ range: melee 
+ crit_class: thrusting 
+ price: 10gc 
+ rarity: common 
+ special:
+   strike_first: A model with a spear strikes first in the first round of any melee combat. 
+   unwieldy: A model using a Spear may only use a shield or a buckler in the other hand. 
+   cavalry_charge: When charging mounted, a warrior using a spear receives a +1 S bonus.
+
+Spiked_Gauntlet:
+ name: Spiked Gauntlet 
+ fluff: The Spiked Gauntlet is a weapon commonly used in the Pit Fights. Act like a blade and a buckler
+ range: melee
+ crit_class: unarmed
+ price: 15gc 
+ rarity: Rare 7
+ limited_to:
+   - Pit Fighters
+ special: 
+   improved_parry: This weapon's main use is to parry blows. A model armed with a spiked gauntlet may always re-roll its parry as if armed with two different weapons with the parry rule.
+
+Squig_Prodder: 
+ name: Squig Prodder 
+ fluff: basically a ornated spear used by Goblins to keep their aggressive pets in line. Squigs will recognize these weapons and behave when close to a user.
+ range: melee 
+ crit_class: thrusting
+ price: 15gc 
+ rarity: common 
+ limited_to: 
+   - Greenskin Warbands 
+ special: 
+    strike_first: A model with a Squig Prodder strikes first in the first round of any melee combat. 
+    unwieldy: A model using a Squig Prodder may only use a shield or a buckler in the other hand. 
+    cavalry_charge: When charging mounted, a warrior using a Squig Prodder receives a +1 S bonus.
+    control_squigs: A Goblin with a Squig prodder can keep all Cave Squigs within 12" from going wild, instead of the normal 6" (see the Minderz special rule under the Cave Squig entry).
+
+Steel_Whip: 
+ name: Steel Whip 
+ fluff: Another weapon unique to the Sisterhood is the steel whip, made from barbed steel chains.
+ range: melee 
+ crit_class: bladed
+ price: 10gc 
+ rarity: common 
+ limited_to:
+   - Sisters of Sigmar 
+   - Chaos Marauders 
+   - Summoners
+   - Dark Elves 
+   - Chaos Dwarves 
+ special:
+   No_Parry: Attacks made by this weapon cannot be parried.
+   Whipcrack: when the wielder charges they gain +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents they will still only receive a total of +1A. If the wielder is using two whips at the same time then they get +1A for the additional hand weapon, but only the first whip gets the whipcrack +1A
+
+Sword:
+ name: Sword   
+ fluff: A basic sword
+ range: melee
+ class: sword
+ crit_class: bladed
+ price: 10
+ rarity: common
+ special:
+   Parry: This weapon may be used to parry incoming blows
+
+Sword_Breaker: 
+ name: Sword Breaker 
+ fluff: The sword breaker is a specialist weapon wrought by only the most talented sword smiths. Next to the hilt are two prongs concealed within the blade that can be used to trap an opponent's blade, twisting and snapping it with a single, well time movement.
+ range: melee 
+ crit_class: thrusting
+ price: 30gc 
+ rarity: Rare 8 
+ special:
+   Parry: This weapon may be used to parry incoming blows.
+   disarm_opponents: After a successful parry with this weapon, roll a D6. On a 4+ the parried weapon is lost to its user for the remainder of this melee combat.
+
+Trident:
+ name: Trident 
+ fluff: An unusual Spear with three blades. It is used only by Pit Fighters who are able to catch enemies' blades with it.
+ range: melee
+ crit_class: thrusting
+ price: 15gc 
+ rarity: Rare 7
+ special: 
+    strike_first: A model with a Trident strikes first in the first round of any melee combat. 
+    unwieldy: A model using a Trident may only use a shield or a buckler in the other hand. 
+    cavalry_charge: When charging mounted, a warrior using a Trident receives a +1 S bonus.
+    parry: This weapon may be used to parry incoming blows.
+
+Weeping_Blades:
+ name: Weeping Blades
+ fluff: The adepts of Clan Eshin use weapons called Weeping Blades, murderous swords constructed with a small amount of warpstone in their structure. A Weeping Blade constantly sweats a deadly corrosive venom
+ range: melee 
+ modifier: 
+   A: +1
+ class: Sword 
+ crit_class: bladed 
+ price: 50gc 
+ rarity: Rare 9
+ limited_to:
+   - Clan Eshin Skaven 
+ special:
+   Two-Handed: The Weeping Blades require both hands to use 
+   Parry: This weapon may be used to parry incoming blows 
+   Poisoned: The venom of Weeping Blades will enter the blood of the victim and ravage his organs and muscles. These weapons count as being permanently coated in black lotus, wounding automatically on a hit roll of 6. Remember to roll for a crit. No additional poison may be applied to Weeping Blades.
+
+Whip: 
+ name: Whip
+ fluff: A basic tool to make horses and cattle go where you want them to. Can also be used to lash out at enemies.
+ range: melee 
+ modifier:
+   S: -1 
+   Sv: +1 
+ crit_class: unarmed 
+ price: 5gc 
+ rarity: Rare 5
+ special: 
+   No_Parry: Attacks made by this weapon cannot be parried.
+   Whipcrack: On the charge, the wielder gets +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents they will still only receive a total of +1A. If the wielder is using two whips at the same time then they get +1A for the additional hand weapon, but only the first whip gets the whipcrack +1A
