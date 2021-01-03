@@ -1,0 +1,76 @@
+name: shooting #skill list name
+type: vanilla #(vanilla, common, special)
+attribution: core rulebook & fan made #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  tier_0: #---------------------------------------------------------------------------------
+
+    - name: #skill name
+      fluff: #what is the story
+      prerequisite: #special prerequisites e.g. 'can only be taken by the warband leader'
+      description: #rules describing the effect of the skill
+
+  tier_1: #---------------------------------------------------------------------------------
+
+    - name: Eagle Eyes
+      fluff: The warrior’s sight is exceptionally keen.
+      prerequisite: 
+      description: He adds range to any missile weapon he is using. Add +6" for weapons with a range of > 12" and +3" for weapons with a range of <= 12". (This does not affect a blunderbuss)
+
+    - name: Trick Shooter
+      fluff: The warrior can shoot through the tiniest gap without it affecting his aim.
+      prerequisite: 
+      description: He ignores all modifiers for cover when using missile weapons.
+
+    - name: Hunter
+      fluff: The warrior is an expert at getting his weapon loaded and ready.
+      prerequisite: 
+      description: He may fire each turn with a handgun or Hochland long rifle.
+
+    - name: Knife-Fighter
+      fluff: The warrior is an unrivalled expert at using throwing knives and throwing stars.
+      prerequisite: 
+      description: He can throw a maximum of three of these missiles in his shooting phase and may divide his shots between any targets within range as he wishes. Note that this skill cannot be combined with the Quick Shot skill.
+
+    - name: Heavy Pull
+      fluff: (fan made) The warrior has trained to use a bow with a heavier draw.
+      prerequisite: 
+      description: All ranged attacks made by the warrior with bow type weapons are at +1 strength.
+
+  tier_2: #---------------------------------------------------------------------------------
+
+    - name: Pistolier
+      fluff: The warrior is an expert at using all kinds of pistols.
+      prerequisite: 
+      description: If he is equipped with a brace of pistols of any type (including crossbow pistols), he may fire twice in the Shooting phase (though note that normal reloading rules apply). If he has a single pistol then he may fire it in the same turn it was reloaded.
+
+    - name: Weapons Expert
+      fluff: The warrior has been trained to use some of the more unusual weapons of the known world.
+      prerequisite: 
+      description: He may use any missile weapon he comes across, not just the weapons available from his warband’s list.
+
+    - name: Nimble
+      fluff: 
+      prerequisite: 
+      description: The warrior may move and fire with weapons that are normally only used if the firer has not moved. Note that this skill cannot be combined with the Quick Shot skill.
+
+    - name: Vitals Shot
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior is adept at shooting where it hurts the most. He adds +1 to rolls on the Critical Wound effect chart when using ranged attacks.
+
+  tier_3: #---------------------------------------------------------------------------------
+
+    - name: Quick Shot
+      fluff: 
+      prerequisite: 
+      description: The warrior may shoot twice per turn with a bow type weapon or crossbow (but not a crossbow pistol).
+
+
+    - name: Fletcher
+      fluff: (Stadtrat made) The warrior spends part of his time making his own ammunition.
+      prerequisite: 
+      description: He may re-roll all ammunition roles he is required to do after the battle.
+        
