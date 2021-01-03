@@ -1,0 +1,90 @@
+name: combat #skill list name
+type: vanilla #(vanilla, common, special)
+attribution: core rulebook & fan made #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  tier_0: #---------------------------------------------------------------------------------
+
+  tier_1: #---------------------------------------------------------------------------------
+
+    - name: Combat master
+      fluff: The warrior is able to take on several opponents at once.
+      prerequisite: 
+      description: If he fights against more than one enemy at a time, he gains an extra Attack in each hand-to-hand combat phase. In addition, the warrior is immune to ‘All Alone’ tests.
+
+    - name: Weapons Training
+      fluff: A warrior with this skill is adept at using many different weapons.
+      prerequisite: 
+      description: He may use any hand-to-hand combat weapon he comes across, not just those in his equipment options.
+
+    - name: Web of Steel
+      fluff: Few can match the ability of this warrior. He fights with great skill, weaving a web of steel around him.
+      prerequisite: 
+      description: The model gains +1 to all his rolls on Critical Hit tables in hand-to-hand combat.
+
+    - name: Expert Swordsman
+      fluff: This warrior has been expertly taught in the art of swordsmanship.
+      prerequisite: 
+      description: He may re-roll all missed attacks made by sword type weapons in the hand-to-hand phase of the turn that he charges.
+
+    - name: Expert Axeman
+      fluff: (fan made)
+      prerequisite: 
+      description: He may re-roll all missed attacks made by axe type weapons in the hand-to-hand phase of the turn that he charges.
+
+    - name: Axe Master
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior may parry with normal axes as per normal parrying rules.
+
+    - name: Pugilist
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior may fight barehanded with no penalty one or two handed. The model always gets an extra attack for having 2 weapons when fighting barehanded or with one weapon and no shield or buckler.
+
+    - name: Shield Smash
+      fluff: (fan made) The warrior has trained to integrate his shield into his fighting style.
+      prerequisite: 
+      description: When using a shield or buckler in hand-to-hand combat he may make a single additional attack resolved at the warriors strength. The Shield Smash cannot cause critical hits.
+
+  tier_2: #---------------------------------------------------------------------------------
+
+    - name: Strike to Injure
+      fluff: The warrior can land his blows with uncanny accuracy.
+      prerequisite: 
+      description: Add +1 to all injury rolls caused by the model in hand-to-hand combat.
+
+    - name: Step Aside
+      fluff: The warrior has a natural ability to avoid injury in combat.
+      prerequisite: 
+      description: Each time he suffers a wound in close combat he may make an additional saving throw of 5+. This save is never modified and is taken after all other armour saves.
+
+    - name: Whip Master
+      fluff: (fan made, based on the Adventurer’s Whip Rules by Jo-Herman Haugholt)
+      prerequisite: 
+      description: The hero is so skilled with his whip that he may re-roll all to-hit rolls when using a whip type weapon.
+
+    - name: Sweeping Blow
+      fluff: (fan made, Stadtrat 10.11.2020 modified)
+      prerequisite: 
+      description: The warrior may opt to forego his normal attacks and make a single sweep attack against all the models in base to base contact with him instead of making his normal attacks. Rather than rolling to hit, each foe has to pass an Initiative test to avoid the blow. Each model failing their Initiative test is hit, and the warrior rolls to wound each enemy independently as normal. This maneuver can only be executed with a two-handed weapon (including halberds and flails, etc.).
+
+    - name: Disarm
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior may opt to forego his normal attacks and attempt to disarm a single opponent. To disarm the opponent, the warrior must declare what weapon he is disarming and then roll to hit the foe at a -2 WS for a single handed weapon and a -3 WS for a 2 handed weapon. If successful the opponent must fight without the designated weapon until he recovers it. The foe recovers his weapon in the first Recovery Phase out of hand-to-hand combat. Not vs. natural weaponry.
+
+    - name: Finishing Move
+      fluff: (fan made, Stadtrat 10.11.2020 reworked)
+      prerequisite: 
+      description: The warrior with this skill wounds knocked-down models automatically (still roll whether you score a critical hit). He can however still only attack one knocked-down or stunned model per turn. Saves are taken as normal.
+
+  tier_3: #---------------------------------------------------------------------------------
+
+    - name: Mob Mentality
+      fluff: (fan made)
+      prerequisite: This skill can be taken by heroes only.
+      description: If a model with this skill is within 3” of at least three other models from his warband, then he gives all of the models in that area, including himself, immunity to fear and +1 Initiative. If the model, with Mob Mentality, is taken out of action while giving bonuses, then all models who are benefiting from the effects will automatically fail an “All alone check” and move accordingly.
+        
