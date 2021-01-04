@@ -1,0 +1,84 @@
+name: academic #skill list name
+type: vanilla #(vanilla, common, special)
+attribution: core rulebook & annual 2002 & fan made #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  tier_0: #---------------------------------------------------------------------------------
+
+    - name: #skill name
+      fluff: #what is the story
+      prerequisite: #special prerequisites e.g. 'can only be taken by the warband leader'
+      description: #rules describing the effect of the skill
+
+  tier_1: #---------------------------------------------------------------------------------
+
+    - name: Sorcery
+      fluff: 
+      prerequisite: This skill may only be taken by magic users. Note that pray users may not use this skill.
+      description: A warrior with this skill gains +1 to his rolls to see whether he can cast spells successfully or not.
+
+    - name: Arcane Lore
+      fluff: 
+      prerequisite: Witch Hunters, Sisters of Sigmar and Warrior-Priests may not have this skill.
+      description: Any warrior with this skill may learn Lesser Magic if he owns a Tome of Magic.
+
+    - name: Haggle
+      fluff: The warrior knows all the tricks of bargaining and haggling.
+      prerequisite: This skill can be taken by heroes only.
+      description: He may deduct 2D6 gold crowns from the price of any single item (to a minimum cost of 1gc) once per post battle sequence.
+
+    - name: Wyrdstone Hunter
+      fluff: The warrior has an uncanny ability to find hidden shards of wyrdstone.
+      prerequisite: This skill can be taken by heroes only.
+      description: If a Hero with this skill is searching the ruins in the exploration phase you may re-roll one dice when rolling on the Exploration chart.
+
+    - name: Battle Tongue
+      fluff: The warrior has drilled his warband to follow short barked commands.
+      prerequisite: This skill can be taken by leaders only. Note that Undead leaders may not use this skill.
+      description: This increases the range of his Leader ability by 6".
+
+  tier_2: #---------------------------------------------------------------------------------
+
+    - name: Streetwise
+      fluff: A warrior with this skill has good contacts and knows where to purchase rare items.
+      prerequisite: This skill can be taken by heroes only.
+      description: He may add +2 to the roll that determines his chances of finding such items (see the Trading section).
+
+    - name: Tactician
+      fluff: (annual 2002) The warrior has a great tactical mind and can often find the best positions for his warriors to meet the oncoming attack.
+      prerequisite: This skill can be taken by leaders only.
+      description: In any scenario the warband leader may reposition his warriors after his opponent has set up and may even advance them up to 12 inch onto the board instead of 8 inch.
+
+    - name: Warrior Wizard
+      fluff: 
+      prerequisite: This skill may only be taken by magic and prayer users.
+      description: The mental powers of the wizard allow him to wear armour and cast spells.
+
+    - name: Magical Aptitude
+      fluff: (annual 2002) The warrior has a keen aptitude for magic and can push himself beyond normal limits to produce a storm of spells.
+      prerequisite: This skill may only be taken by magic users. Note that pray users may not use this skill.
+      description: The warrior may attempt to cast two spells each turn as long as he is not in hand-to-hand combat. After attempting the first spell, he must take a toughness test. If he passes he may attempt a second spell that turn or even cast the same spell twice. If he fails he must roll on the injury table immediately with no saves treating Out Of Action results as Stunned instead.
+
+  tier_3: #---------------------------------------------------------------------------------
+
+    - name: Money Maker
+      fluff: (fan made) The model with this skill utilizes his talents and wares to try and make extra money after the adventure.
+      prerequisite: This skill can be taken by heroes only.
+      description: If the model is not taken out of action, they may roll an additional die during the exploration phase and choose which one they want.
+
+    - name: Hunch
+      fluff: (annual 2002) The warrior has an uncanny knack of placing his men in the right place at the right time, as if he senses danger through instinct alone.
+      prerequisite: This skill can be taken by leaders only.
+      description: In any scenario the warband leader may position up to 3 of his men capable of earning experience in any ruined building on the board that is at least 12" away from an enemy model and not in the enemy's deployment zone.
+
+    - name: Scribe
+      fluff: (annual 2002) The warrior is a natural adept at writing and making scrolls.
+      prerequisite: This skill may only be taken by magic and prayer users.
+      description: It allows them to make a scroll before the battle and inscribe a single spell or prayer upon it that they are versed in. The scroll may be used just before they are about to cast the spell or prayer and allows the caster +3 to his difficulty roll. Once used the scroll will crumble to dust and is useless. Scrolls may not be saved up from battle to battle if they are not used.
+
+    - name: Mind Focus
+      fluff: (annual 2002) The warrior possesses a great strength of mind which allows him to concentrate beyond the levels of most normal men.
+      prerequisite: This skill may only be taken by magic and prayer users.
+      description: When using a spell or prayer the warrior with this skill may reroll both dice used in the difficulty roll with a -1 modifier on the reroll.
