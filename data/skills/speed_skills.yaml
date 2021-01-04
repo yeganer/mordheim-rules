@@ -1,0 +1,74 @@
+name: speed #skill list name
+type: vanilla #(vanilla, common, special)
+attribution: core rulebook & fan made #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  tier_0: #---------------------------------------------------------------------------------
+
+  tier_1: #---------------------------------------------------------------------------------
+
+    - name: Leap
+      fluff: 
+      prerequisite: 
+      description: The warrior may leap D6" in the movement phase in addition to his normal movement. He may move and leap, run and leap, or charge and leap, but he can only leap once per turn. A leaping warrior may jump over opposing man-sized models, including enemies, and obstacles 1" high, without penalty. The leap may also be used to leap over gaps, but in this case you must commit the warrior to making the leap before rolling the dice to see how far he jumps. If he fails to make it all the way across, he falls through the gap.
+
+    - name: Acrobat
+      fluff: The warrior is incredibly supple and agile.
+      prerequisite: 
+      description: He may fall or jump from a height of up to 12" without taking any damage if he passes a single Initiative test, and can re-roll failed Diving Charge rolls. He can still only make a diving charge from a height of up to 6".
+
+    - name: Jump Up
+      fluff: The warrior can regain his footing in an instant, springing to his feet immediately if he is Knocked Down.
+      prerequisite: 
+      description: The warrior may ignore Knocked Down results when rolling for injuries, unless he is Knocked Down because of a successful save from wearing a helmet or because he has the No Pain special rule.
+
+    - name: Fleet Footed
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior gains a +1 bonus to his Movement.
+
+    - name: Fast Strike
+      fluff: (Stadtrat made)
+      prerequisite: 
+      description: The model has a +1 Initiative bonus when determining the order of when attacks are resolved in close combat.
+
+    - name: Flee
+      fluff: (Stadtrat made)
+      prerequisite: 
+      description: The hero is immune to disengagement attacks and does not have to roll a 4+ for keeping wyrdstone when routing with enemies within 12".
+
+  tier_2: #---------------------------------------------------------------------------------
+
+    - name: Lightning Reflexes
+      fluff: 
+      prerequisite: 
+      description: If the warrior is charged he will ‘strike first’ against those that charged that turn. As the charger(s) will also normally ‘strike first’ (for charging), the order of attack between the charger(s) and the warrior with this skill will be determined by comparing Initiative values.
+
+    - name: Scale Sheer Surfaces
+      fluff: A warrior with this skill can scale even the highest wall or fence with ease.
+      prerequisite: 
+      description: He can climb up or down a height equal to twice his normal Movement, and does not need to make Initiative tests when doing so.
+
+    - name: Dodge
+      fluff: A warrior with this skill is nimble and as fast as quicksilver.
+      prerequisite: 
+      description: He can avoid any hits from a missile weapon on a D6 roll of 5+. Note that this roll is taken against missiles as soon as a hit is scored to see whether the warrior dodges it or not, before rolling to wound, and before any effects from other skills or equipment (such as lucky charms).
+
+    - name: Sneaky
+      fluff: (Stadtrat made)
+      prerequisite: 
+      description: The hero may hide after running in the movement phase. This can not be combined with the "Nights are dark" rule from the weather table.
+
+  tier_3: #---------------------------------------------------------------------------------
+
+    - name: Sprint
+      fluff: 
+      prerequisite: 
+      description: The warrior may triple his Movement rate when he runs or charges, rather than doubling it as normal.
+
+    - name: Roll Dodge
+      fluff: 
+      prerequisite: 
+      description: The warrior cannot be intercepted by the 2" Interception rule when charging into Hand-to-Hand combat.
