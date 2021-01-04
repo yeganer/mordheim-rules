@@ -1,0 +1,64 @@
+name: strength #skill list name
+type: vanilla #(vanilla, common, special)
+attribution: core rulebook & fan made #are they based on something
+fluff: #what is the story
+general_rules: #general rules that affect all skills e.g. 'only one warband member can have access to the musician skill list'
+
+skills:
+  tier_0: #---------------------------------------------------------------------------------
+
+  tier_1: #---------------------------------------------------------------------------------
+
+    - name: Pit Fighter
+      fluff: The warrior has learned how to fight in enclosed spaces from his time in the dangerous fighting pits of the Empire.
+      prerequisite: 
+      description: He is an expert at fighting in confined areas and adds +1 to his Weapon Skill and +1 to his Attacks if he is fighting inside buildings or ruins. It’s a good idea to define which bits of your terrain collection count as ‘buildings or ruins’ at the start of a battle to avoid confusion later.
+
+    - name: Strongman
+      fluff: The warrior is capable of great feats of strength.
+      prerequisite: 
+      description: He may use a double-handed weapon without the usual penalty of always striking last. Work out order of battle as you would with other weapons.
+
+    - name: Unstoppable Charge
+      fluff: When he charges, the warrior is almost impossible to halt.
+      prerequisite: 
+      description: He adds +1 to his Weapon Skill when charging.
+
+    - name: Bell Ringer
+      fluff: (fan made)
+      prerequisite: 
+      description: The warrior may opt to forego his normal attacks and make a single bell ringer attack instead of his normal attacks in close combat. The bell ringer attack gets +1 to hit, +1 strength, no attack/weapon bonuses or mali and the enemy is stunned on a 2-5 on the Injury Chart.
+
+    - name: Untiring
+      fluff: (fan made)
+      prerequisite: 
+      description: When wielding 'Heavy' weapons (e.g. flails and morning stars) the warrior may also use the Strength bonus after the first trun in hand-to-hand combat.
+
+    - name: Strong Legs
+      fluff: (fan made)
+      prerequisite: 
+      description: When the hero is suffering a Movement penalty due to the weight of equipment or armour (e.g. from combining heavy armour and a shield) this penalty is reduced by 1 (to a minimum of 0).
+
+    - name: Mighty Throw
+      fluff: (Stadtrat made) The warrior uses his physical strength to hurl throwing weapons further than normally possible.
+      prerequisite: 
+      description: He adds range to any throwing weapon he is using. Add +x" to the range with x the Strength of the user.
+
+  tier_2: #---------------------------------------------------------------------------------
+
+    - name: Mighty Blow
+      fluff: The warrior knows how to use his strength to maximum effect.
+      prerequisite: 
+      description: He has a +1 Strength bonus in close combat (excluding pistols). As his Strength is used for close combat weapons, the bonus applies to all such weapons.
+
+    - name: Fearsome
+      fluff: 
+      prerequisite: 
+      description: Such is the reputation and physique of the model that he causes fear in opposing models.
+
+  tier_3: #---------------------------------------------------------------------------------
+
+    - name: Resilient
+      fluff: The warrior is covered in battle scars.
+      prerequisite: 
+      description: Deduct -1 Strength from all hits against him in close combat. This does not affect armour save modifiers.
