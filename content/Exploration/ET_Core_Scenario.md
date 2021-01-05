@@ -17,7 +17,7 @@ attribution:
 {{< /table >}}
 
 #### Triples:
-<<<<<<< HEAD
+{{< table >}}
 |  Number  | Name | Fluff | Result |
 | --------- | - | - | - |
 | (111) | **Tavern** | *The ruin of a tavern is recognisable by its sign still hanging on the wall. The upper part of the building is ruined, but the cellars are cut into rock and are still full of barrels. There are broken flagons and tankards everywhere.* | You could easily sell the barrels for a good price. Unfortunately your men are also interested in the contents! The warband’s leader must take a Leadership test. If he passes, the warband gains 4D6 GC worth of wines and ales which can be sold immediately. If he fails, the men drink most of the alcohol despite their leader’s threats and curses. You have D6 GC worth of alcohol left when the warband reaches their encampment. Undead, Witch Hunter and Sisters of Sigmar warbands automatically pass this test, as they are not tempted by such worldly things as alcohol. |
@@ -28,8 +28,9 @@ attribution:
 | (666) | **Returning a Favour** | *As you are returning to your encampment, you meet one of your old acquaintances. He has come to repay an old favour or debt.* | You gain the services of any one Hired Sword (choose from those available to your warband) for the duration of the next battle, free of charge. After the battle he will depart, or you may continue to pay for his upkeep as normal. See the Hired Swords section on page 219. |
 {{< /table >}}
 
-{{< table >}}
+
 #### Four of a kind:
+{{< table >}}
 |  Number  | Name | Fluff | Result |
 | --------- | - | - | - |
 | (1111) | **Gunsmith** | *You find the workshop of a Dwarf gunsmith. Its doors have been broken down and the rooms raided, but some of the iron strongboxes have survived intact.* | Roll a D6 to see what you find: D6 Result 1 Blunderbuss 2 Brace of pistols 3 Brace of duelling pistols 4 D3 Handguns 5 D3 Flasks of superior blackpowder 6 Hochland long rifle |
@@ -40,8 +41,9 @@ attribution:
 | (6666) | **Catacombs** | *You find an entrance to the catacombs and tunnels below Mordheim.* | You can use the new tunnels you found in the next battle you play. Position up to three fighters (not Rat Ogres or the Possessed) anywhere on the battlefield at ground level. They are set up at the end of the player’s first turn and cannot be placed within 8" of any enemy models. This represents the warriors making their way through the tunnels, infiltrating enemy lines and emerging suddenly from below ground. |
 {{< /table >}}
 
-{{< table >}}
+
 #### Five of a kind:
+{{< table >}}
 |  Number  | Name | Fluff | Result |
 | --------- | - | - | - |
 | (11111) | **Moneylender’s House** | *A grand mansion, that is strongly built from stone, has survived the cataclysm remarkably well. A carved coat of arms adorns the lintel above the doorway although it has been defaced by raiders and the symbols are now unrecognisable. The door itself, has been smashed open with axes and hangs open on its hinges.* | Inside, hidden amongst the debris, you find D6x10 GC to add to your treasury. |
@@ -52,8 +54,9 @@ attribution:
 | (66666) | **Entrance to the Catacombs** | *You find a well-hidden entrance to the dark catacombs which extend for miles beneath the city of Mordheim. Although the entrance looks foreboding the tunnels will take hours off your searches of the city.* | You can use these tunnels to explore Mordheim more efficiently. From now on, you may re-roll one dice when you roll on the Exploration chart. Make a note of this in your warband’s roster sheet. Second and subsequent catacomb entrances you find do not grant you any additional re-rolls, although you may find further re-rolls from other sources. |
 {{< /table >}}
 
-{{< table >}}
+
 #### Six of a kind:
+{{< table >}}
 |  Number  | Name | Fluff | Result |
 | --------- | - | - | - |
 | (11111) | **The Pit** | *You have come within sight of the Pit, the huge crater created by the comet. A black cloud still rises from it but you can see glowing wyrdstone everywhere. This is the domain of the Shadow Lord, the lord of the Possessed, and no-one is welcome here – even his own followers!* | If you wish, you can send one of your Heroes to search for any wyrdstone hidden here. Roll a D6. On a roll of 1 the Hero is devoured by the guardians of the Pit and never seen again. On a roll of 2 or more he returns with D6+1 shards of wyrdstone. |
@@ -62,15 +65,4 @@ attribution:
 | (44444) | **Slaughtered Warband** | *You find the remains of an entire warband. Broken bodies lay scattered among the ruins, torn apart by some monstrous creature. You see a huge shape, which looks like an immense Possessed creature, shambling away.* | After giving the dead their final rites (Sisters of Sigmar or Witch Hunters), eating them (Skaven or Undead) or looting them (anyone else!) you find the following items. Roll for every item separately (apart from the gold coins and daggers) to see if you find it. For example, on a roll of 4+ you will find the suits of light armour. Item D6 Result Needed 3D6x5 GC Auto D3 Suits of light armour 4+ Suit of heavy armour 5+ D6 Daggers Auto Mordheim Map 4+ D3 Halberds 5+ D3 Swords 3+ D3 Shields 2+ D3 Bows 4+ D3 Helmets 2+ |
 | (55555) | **Fighting Arena** | *During better times, Mordheim was famous for its duellists and pit fighters. You have found one of the areas used to train these warriors. The place is filled with training equipment and practice weapons.* | You find a training manual, which you can either sell for 100 GC or let one of your Heroes read. The extra knowledge your Hero gleans from reading the manual entitles him to choose from Combat skills whenever he gains a new skill, and his WS may now be increased by an extra point above his normal racial maximum (for example, a Human who has the book would now have a maximum Weapon Skill of 7). |
 | (66666) | **Noble’s Villa** | *You find a fine house which is partially ruined. It has been thoroughly ransacked and all the furniture has been stripped of its fine fabrics. Shards of broken pottery of the finest quality are scattered over the floor.* | Roll a D6. If you roll 1-2, you find D6x10 GC worth of items and money to add to your treasury. On a roll of 3-4, you find D6 vials of Crimson Shade. On a roll of 5-6 you find a hidden magical artefact carefully concealed in a hidden cellar or behind a secret door. Roll on the Magical Artefacts table. |
-=======
-{{< table >}}
-|  D 66  | Fluff | Result |
-| --------- | - | - |
-| (111) **Well** | *The public wells, of which there were several in Mordheim, were covered by rooves raised upon pillars and adorned with carvings and fountains. The city was proud of its watersystem. Unfortunately, like all the other wells,this one is in a parlous state and undoubtedlypolluted with wyrdstone* | Choose one of your Heroes and roll a D6. If theresult is equal to or lower than his Toughness, hefinds one shard of wyrdstoneat the bottom of thewell. If he fails, the Hero swallows tainted waterand must miss the next game through sickness |
-| (222) ** ** | - |
-| (333) ** ** | - |
-| (444) ** ** | - |
-| (555) ** ** | - |
-| (666) ** ** | - |
->>>>>>> 1497d8f7764a4b580e577f95d4b1caf3891e013a
 {{< /table >}}
