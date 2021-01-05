@@ -1,0 +1,4 @@
+baseURL = "https://yeganer.github.io/mordheim-rules/"
+# Allow "offline" mode
+RelativeURLs = false
+uglyURLs = false

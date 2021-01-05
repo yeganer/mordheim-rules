@@ -1,11 +1,8 @@
 ---
 title: Exploration Table Core Scenario
-draft: true
+draft: false
 attribution: 
 ---
-  
-
-
 #### Doubles:
 {{< table >}}
 
@@ -19,8 +16,8 @@ attribution:
 | (66) | **Ruined Hovels** | *The street consists of ruined hovels, which are leaning over at alarming angles. Not much worth looting here.* | You find loot worth D6 GC amidst the ruins |
 {{< /table >}}
 
-{{< table >}}
 #### Triples:
+<<<<<<< HEAD
 |  Number  | Name | Fluff | Result |
 | --------- | - | - | - |
 | (111) | **Tavern** | *The ruin of a tavern is recognisable by its sign still hanging on the wall. The upper part of the building is ruined, but the cellars are cut into rock and are still full of barrels. There are broken flagons and tankards everywhere.* | You could easily sell the barrels for a good price. Unfortunately your men are also interested in the contents! The warband’s leader must take a Leadership test. If he passes, the warband gains 4D6 GC worth of wines and ales which can be sold immediately. If he fails, the men drink most of the alcohol despite their leader’s threats and curses. You have D6 GC worth of alcohol left when the warband reaches their encampment. Undead, Witch Hunter and Sisters of Sigmar warbands automatically pass this test, as they are not tempted by such worldly things as alcohol. |
@@ -65,4 +62,15 @@ attribution:
 | (44444) | **Slaughtered Warband** | *You find the remains of an entire warband. Broken bodies lay scattered among the ruins, torn apart by some monstrous creature. You see a huge shape, which looks like an immense Possessed creature, shambling away.* | After giving the dead their final rites (Sisters of Sigmar or Witch Hunters), eating them (Skaven or Undead) or looting them (anyone else!) you find the following items. Roll for every item separately (apart from the gold coins and daggers) to see if you find it. For example, on a roll of 4+ you will find the suits of light armour. Item D6 Result Needed 3D6x5 GC Auto D3 Suits of light armour 4+ Suit of heavy armour 5+ D6 Daggers Auto Mordheim Map 4+ D3 Halberds 5+ D3 Swords 3+ D3 Shields 2+ D3 Bows 4+ D3 Helmets 2+ |
 | (55555) | **Fighting Arena** | *During better times, Mordheim was famous for its duellists and pit fighters. You have found one of the areas used to train these warriors. The place is filled with training equipment and practice weapons.* | You find a training manual, which you can either sell for 100 GC or let one of your Heroes read. The extra knowledge your Hero gleans from reading the manual entitles him to choose from Combat skills whenever he gains a new skill, and his WS may now be increased by an extra point above his normal racial maximum (for example, a Human who has the book would now have a maximum Weapon Skill of 7). |
 | (66666) | **Noble’s Villa** | *You find a fine house which is partially ruined. It has been thoroughly ransacked and all the furniture has been stripped of its fine fabrics. Shards of broken pottery of the finest quality are scattered over the floor.* | Roll a D6. If you roll 1-2, you find D6x10 GC worth of items and money to add to your treasury. On a roll of 3-4, you find D6 vials of Crimson Shade. On a roll of 5-6 you find a hidden magical artefact carefully concealed in a hidden cellar or behind a secret door. Roll on the Magical Artefacts table. |
+=======
+{{< table >}}
+|  D 66  | Fluff | Result |
+| --------- | - | - |
+| (111) **Well** | *The public wells, of which there were several in Mordheim, were covered by rooves raised upon pillars and adorned with carvings and fountains. The city was proud of its watersystem. Unfortunately, like all the other wells,this one is in a parlous state and undoubtedlypolluted with wyrdstone* | Choose one of your Heroes and roll a D6. If theresult is equal to or lower than his Toughness, hefinds one shard of wyrdstoneat the bottom of thewell. If he fails, the Hero swallows tainted waterand must miss the next game through sickness |
+| (222) ** ** | - |
+| (333) ** ** | - |
+| (444) ** ** | - |
+| (555) ** ** | - |
+| (666) ** ** | - |
+>>>>>>> 1497d8f7764a4b580e577f95d4b1caf3891e013a
 {{< /table >}}

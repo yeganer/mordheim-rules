@@ -1,0 +1,22 @@
+{{ $data := .data }}
+{{ $show_fluff := .show_fluff}}
+{{ if $show_fluff }}
+{{ else }}
+{{ $show_fluff = false }}
+{{ end }}
+{{ if $show_fluff }}
+<p>
+{{ $data.fluff | markdownify }}
+</p>
+{{ end }}
+<table class="table table-borderless table-sm w-auto">
+    <thead>
+        <th>Difficulty</th>
+        <th>Name</th>
+    </thead>
+    <tbody>
+        {{range $data.spells}}
+            {{ partial "magic/spell_item" (dict "data" . "fluff" $show_fluff) }}
+        {{end}}
+    </tbody>
+</table>

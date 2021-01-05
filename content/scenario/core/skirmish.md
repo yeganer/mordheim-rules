@@ -2,6 +2,7 @@
 title: Skirmish
 draft: false
 attribution: core
+d12_result: 7
 ---
 In the vastness of the Mordheim ruins there is always
 the risk of running into a rival warband. While two
@@ -36,8 +37,6 @@ When one of the warbands fails its Rout test, the game
 ends. The routing warband loses and their opponents
 win.
 ## Experience
-__+1 Survives.__ If a Hero or a Henchman group survives the battle they gain +1 Experience.
-
-__+1 Winning Leader.__ The leader of the winning warband gains +1 extra Experience.
-
-__+1 Per Enemy Out of Action.__ Any Hero earns +1 Experience for each enemy model he puts out of action
+__+1 Survives.__ If a Hero or a Henchman group survives the battle they gain +1 Experience.  
+__+1 Winning Leader.__ The leader of the winning warband gains +1 extra Experience.  
+__+1 Per Enemy Out of Action.__ Any Hero earns +1 Experience for each enemy model he puts out of action.
