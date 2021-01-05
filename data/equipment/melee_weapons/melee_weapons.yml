@@ -14,7 +14,6 @@ Athame:
    magic_weapon: The attack made with this weapon counts as magical.
    strike_once: Only one Attack may ever be carried out with the Athame, after that it is broken and can not be recovered. Should you miss that one you may try again.
 
-
 axe:
   name: Axe  
   fluff: Your everyday chopping tool, used for trees, doors and human beings.
