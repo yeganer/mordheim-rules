@@ -1,5 +1,5 @@
 <div class="row">
-  {{- range $k, $v := .Site.Data.warbands.dark_elves.heroes }}
+  {{- range $v := .Page.Params.heroes }}
     {{- $data := $v -}}
     <section class="col-md-8 col-lg-6 order-{{ $data.weight }}">
       <div >
