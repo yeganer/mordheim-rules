@@ -2,6 +2,112 @@
 title: "Dark Elf Warband"
 draft: false
 magic_list: dark_elf_magic
+heroes:
+- name: High Born
+  fluff: |
+    Dark Elf Leaders are typically drawn from the Dark Elf nobility and lead the warband in search of gold,
+    slaves and arcane artefacts to bring home to Naggaroth. They are cold and ruthless killers and they command
+    the respect of their troops through assassination and terror. They have attained their position of leadership
+    by eliminating rival nobles who stand in their way and through their remarkable cunning, they are dangerous
+    foes who embody the merciless traits of the Druchii race.
+  price: 80
+  xp: 20
+  weight: 1
+  stats:
+    M: 5
+    WS: 5
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 9
+  equipment_list:
+    - Dark Elf equipment list
+  skill_lists:
+    - Combat
+    - Shooting
+    - Academic
+    - Speed
+    - Dark Elf Special Skill
+  special:
+    Leader: Any models in the warband within **6**" of the High Born may use his Leadership instead of their own.
+
+- name: Fellblade
+  fluff: The Fellblades are elite warriors of the Dark Elf armies and are often linked to the household of a particular Noble family. Fellblades live a life of strict martial training, each specialises in a particular weapon and fighting style. Killing is a way of life for these warriors. Enemies can expect no mercy from them. Fellblades accompany raiding parties to Lustria as paid guards or to further hone their killing skills.
+  price: 50
+  xp: 12
+  weight: 2
+  stats:
+    M: 5
+    WS: 5
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 8
+  equipment_list:
+    - Dark Elf equipement list
+  skill_lists:
+    - Combat
+    - Speed
+    - Dark Elf Special Skill
+  special:
+    Melee Specialist: Fellblades live by a strict code of close quarter fighting. Fellblades may not use missile warpons of any sort.
+
+- name: Beastmaster
+  fluff: Whereas the High Elves have a great affinity with Dragons and Griffons and other noble creatures their malevolent kin have infamous Beastmasters, Dark Elves of particularly cruel renown who breed many vicious beasts and lead them into contact. Unlike the High Elves who treat their beasts as companions, the Dark Elf Beastmasters are very spiteful masters.
+  price: 50
+  xp: 8
+  weight: 3
+  stats:
+    M: 5
+    WS: 4
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 8
+  equipment_list:
+    - Dark Elf equipement list
+  skill_lists:
+    - Combat
+    - Speed
+    - Dark Elf Special Skill
+  special:
+    Cold One Beasthound: The Beastmaster may be accompanied by up to two Cold One Beasthounds, these are bought as henchmen and follow all rules for listed for them.
+
+- name: Sorceress
+  fluff: Dark Elves are strange in that apart from the fell Witch King there are no other male sorcerers, all the other practitioners of magic in the Dark Elf race are female. It is rumoured that any males who do develop an affinity for magic amongst the Dark Elves are immediately put to death to fulfil some dark prophecy. Dark Elf Sorceresses are mysterious, raven haired beauties who are grudgingly respected even from the powerful High Born and their services are high in demand.
+  price: 70
+  xp: 12
+  weight: 4
+  stats:
+    M: 5
+    WS: 4
+    BS: 4
+    S: 3
+    T: 3
+    W: 1
+    I: 6
+    A: 1
+    Ld: 8
+  equipment_list:
+    - Dark Elf equipement list
+  skill_lists:
+    - Academic
+    - Speed
+    - Dark Elf Special Skill
+  special:
+    Magic User: The Dark Elf Sorceress has the ability to use magic and casts spells like any other magicians, and the Dark Elf Sorceress starts with one spells generated at random from the Dark Elf Magic list. See the Magic section for details. In addition the Dark Elf Sorceress may learn a new Spell instead on a new skill.
+
+henchmen:
+- name: "Corsair"
 ---
 Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves. The slaves of the Dark Elves are either worked to death in their mines, ripped apart on the altars to Khaine, their dark God, or tortured mercilessly by the Brides of Khaine, the Witch Elves. Dark Elves take a perverse delight in inflicting pain upon others just to see their victims suffer.
 
