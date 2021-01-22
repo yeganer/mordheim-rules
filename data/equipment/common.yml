@@ -1,53 +1,338 @@
-template:
-  name: Template
-  fluff: |
-    Template weapon
-  range: melee
-  strength: # default: as user
-  modifier:
-    M: 5
-    WS: 5
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 9
-    S: "+1"
-    Sv: "+1"
-  class: dagger
-  crit_class: thrusting
-  price: 2
-  rarity: 6 (common for Sisters)
-  limited_to:
-    - Dark Elves
-    - Orcs
-  special:
-    Strike First:
+Blowpipe: 
+ name: Blowpipe
+ fluff: A silent assassin's weapon. It shoots small Darts that are themselves harmless, but are covered in deadly poison.
+ range: 8"
+ strength: 1 
+ crit_class: shooting
+ price: 25gc 
+ rarity: Rare 7
+ limited_to:
+   - Clan Eshin Skaven
+ special: 
+   Poisoned: This weapon always counts as being covered with black Lotus, wounding automatically on a hit roll of 6+, remember to roll to wound if possible.
+   Stealthy: A model may hide, fire this weapon and still count as hidden.
 
+Blunderbuss:
+ name: Blunderbuss
+ fluff: A Pipe, stuffed with Black Powder and anything sharp, heavy or small enough to fit. When fired, it creates a dangerous Area of shrapnel.
+ range: 16"
+ strength: 3
+ class: Blackpowder Weapons
+ crit_class: shooting
+ price: 30gc 
+ rarity: Rare 9
+ special:
+   Fire_Once: Reloading this gun takes too much effort to do in battle. It can only be fired once per game.
+   Line_of_effect: When firing this gun, draw a 1" wide and 16" long line from the firing model. Any model touched by this line is hit by the weapon. 
+   Weakened_by_cover: While deadly, the shrapnel is easily stopped by anything in its path. When the line covers any kind of suitable cover, its strength is weakened by 1 from that point on. This may happen multiple times until the line ends or the strength is 0.
 
-dagger:
-  name: Dagger
-  range: melee
-  price: 2
-  modifier:
-    Sv: "+1"
-  class: dagger
-  crit_class: thrusting
-  rarity: common
+Bow: 
+ name: Bow 
+ fluff: Your trusty old Bow. It puts sharp sticks in your enemies from afar. Can be quite deadly in the right hands.
+ range: 24"
+ Strength: 3 
+ class: Bows 
+ crit_class: shooting
+ price: 10gc 
+ rarity: common
 
-lance:
-  name: Lance
-  price: "?"
-  crit_class: thrusting
-  modifier:
-    S: "+2"
-  special: 
-    May only be used on horseback
+Crossbow: 
+ name: Crossbow
+ fluff: The more elaborate way to put sharp sticks into your enemy from afar. Its reloading system makes it hard to handle when walking though.
+ range: 30" 
+ Strength: 4 
+ class: Crossbows 
+ crit_class: shooting
+ price: 25gc 
+ rarity: common 
+ special: 
+   Move_or_fire: A model that moved this turn for any reason is unable to fire the Crossbow in its shooting phase. Learning the nimble skill negates this rule.
 
-javelin:
-  name: Javelin
-  range: melee
-  price: "?"
-  description: May be used in close quarter combat
+Crossbow_Pistol:
+ name: Crossbow Pistol 
+ fluff: The pocket crossbow. It can be attached to your wrist and fired at charging enemies once you can see the white in their eyes.
+ range: 10" 
+ strength: 4 
+ class: Crossbows
+ crit_class: shooting
+ price: 35gc 
+ rarity: Rare 9
+ limited_to:
+   - Dark Elves 
+   - Witch Hunters
+ special: 
+   overwatch: A model armed with a crossbow pistol may shoot it in the first round of a hand-to-hand combat and this shot is always resolved first, before any blows are struck. This shot has an extra -2 to hit penalty. Use model’s Ballistic Skill to see whether it hits or not. This bonus attack is in addition to any close combat weapon attacks.
+
+Dueling_Pistol:
+ name: Dueling Pistol
+ fluff: A gunsmith's way of making money from noblemen trying to kill each other. Normally designed in pairs for dueling, these highly accurate weapons can be mostly found among rich Mercenaries.
+ range: 10"
+ strength: 4 
+ modifier:
+   Sv: -1 
+ class: Blackpowder weapons
+ crit_class: shooting
+ price: 30gc (single) / 60gc (brace)
+ rarity: Rare 10
+ limited_to: 
+   - Reikland Mercenaries.
+   - Marienburger Mercenaries.
+   - Middenheimer Mercenaries.
+   - Averlander Mercenaries.
+   - Nuln Engineers
+   - Kislevites
+   - Battle Monks of Cathay
+ special:
+   Fine_Craftsmanship: Made for the wealthy or the noble, these guns are very accurately crafted. They always receive a +1 modifier on hit rolls in both shooting and melee.
+   Fire_in_close_combat: The small nature of these makes them able to be fired point blank in melee combat. Treat them like a regular attack. When empty, the handle counts as a club from the melee weapons section.
+   Fire_every_other_turn: A Dueling Pistol takes one turn to be reloaded after firing. Note that this effectively allows to fire every turn with a brace of these.
+
+Elf_Bow:
+ name: Elf Bow 
+ fluff: Better, because it was made by arrogant people with pointy ears. One of the best tools to put sharp sticks into your enemy from afar. 
+ range: 36" 
+ Strength: 3 
+ modifier:
+   Sv: -1 
+ class: Bows
+ crit_class: shooting
+ price: 35+3D6gc 
+ rarity: Rare 12
+
+Handgun: 
+ name: Handgun
+ fluff: An Arquebuse or a Musket. Requires more learning to be handled effectively than most other ranged weapons but it packs quite a punch.
+ range: 24" 
+ strength: 4 
+ modifier:
+   Sv: -1 
+ class: Blackpowder Weapons 
+ crit_class: shooting
+ price: 35gc 
+ rarity: Rare 8
+ limited_to:
+   - Nuln Engineers
+   - Clan Skryre Skaven 
+   - Chaos Dwarves
+   - Battle Monks of Cathay 
+ special:
+   Fire_every_other_turn: A Handgun takes one turn to be reloaded after firing. Learning the hunter skill negates this rule. 
+
+Hunting_Rifle:
+ name: Hunting Rifle 
+ fluff: The best blackpowder weapon that can be found in Mordheim. Issued to Elite Sharpshooters of the Imperium's Militias and Armies. Equipped with a Gunsight, the Hochland Hunting rifle sports superior Range and the ability to pick off specific targets at range.
+ range: 48"
+ strength: 4
+ modifier:
+   Sv: -1 
+ class: blackpowder weapons
+ crit_class: shooting
+ price: 200gc 
+ rarity: Rare 11
+ special:
+  Fire_every_other_turn: A Hunting Rifle takes one turn to be reloaded after firing. Learning the hunter skill negates this rule. 
+  Pick_Target: Equipped with a Hochland Hunting Rifle, a model is able to choose at wich enemy model to fire at any range or elevation.
+
+  Javelins:
+   name: Javelins
+   fluff: A batch of Spears that are made for being thrown running at an enemy before clashing with him in melee.
+   range: 10"
+   strength: as user
+   class: thrown weapons 
+   crit_class: shooting
+   price: 10gc 
+   rarity: common 
+   limited_to:
+     - Beastmen
+     - Pit Fighters
+     - Corvus Cabal 
+   special: 
+     No_movement_penalty: Javelins ignore the -1 to hit modifier for moving and shooting.
+
+Jezzail_Rifle: 
+ name: Jezzail Rifle
+ fluff: A heavy Rifle designed to fire warpstone pellets at large distances. Its weight and size make quick handling impossible though.
+ range: 36" 
+ strength: 5
+ modifier: 
+   Sv: -1 
+class: blackpowder weapons 
+crit_class: shooting
+price: 175gc 
+rarity: rare 11
+limited_to:
+   - Clan Skryre Skaven 
+special: 
+  Fire_every_other_turn: A Jezzail Rifle takes one turn to be reloaded after firing. Learning the hunter skill negates this rule.
+  Pick_Target: Equipped with a Jezzail Rifle, a model is able to choose at wich enemy model to fire at any range or elevation.
+  heavy: A model equipped with a Jezzail Rifle halves its Movement Stat. A model in base contact that is not carrying anything heavy itself may help the bearer so he may ignore this rule.
+
+Long_Bow:
+ name: Long Bow 
+ fluff: A long bow is made of alternating layers of either yew or elm. A skilled archer can hit a chosen leaf on a tree from three hundred paces with this weapon. The long bow is favoured by experienced archers due to its great reach and accuracy.
+ range: 30" 
+ strength: 3 
+ class: Bows 
+ crit_class: shooting
+ price: 15gc 
+ rarity: common 
+ limited_to: 
+   - Reikland Mercenaries
+   - Middenheimer Mercenaries
+   - Marienburg Mercenaries
+   - Averlander Mercenaries
+   - Blood Dragon Knights
+   - Bretonnian Chapel Guard
+   - Disciples of Maldred
+
+Pistol: 
+ name: Pistol
+ fluff: A small basic gun that fires a single round over a small distance. It is relatively common even among the rag-tag street gangs of Mordheim and is even used for point blank shots in melee combat.
+ range: 6"
+ strength: 4 
+ modifier:
+   Sv: -1
+ class: blackpowder weapons 
+ crit_class: shooting
+ price: 15gc (single)/ 30gc (brace)
+ rarity: Rare 8
+ limited_to: 
+   - Reikland Mercenaries
+   - Middenheimer Mercenaries
+   - Marienburg Mercenaries
+   - Averlander Mercenaries
+   - Ostlander Mercenaries
+   - Nuln Engineers
+   - Carnival of Chaos 
+   - Witch Hunters 
+   - Kislevites
+   - Dwarf Treasure Hunters 
+   - Clan Skryre Skaven
+   - Chaos Dwarves
+ special: 
+  Fire_every_other_turn: A Pistol takes one turn to reload.
+  Fire_in_close_combat: The small nature of these makes them able to be fired point blank in melee combat. Treat them like a regular attack. When empty, the handle counts as a club from the melee weapons section.
+
+Poison_Wind_Globes:
+ name: Poison Wind Globes 
+ fluff: A pot of Glass or clay, filled with most disgusting sap and stench. The mad Rats of Clan Skryre throw these at their enemies at close range, endangering both themselves and the enemy.
+ range: Str of the User x2 
+ strength: 2 
+ class: thrown Weapons
+ crit_class: shooting
+ price: 25gc 
+ rarity: Rare 7 
+ limited_to:
+   - Clan Skryre Skaven 
+   - Clan Pestilens Skaven 
+ special: 
+   Poison: Hits caused by this weapon count as poison, so models immune to poison are not affected.
+   Area_of_effect: Hits by this weapon hit not only the target model but also any model within 1" of the target.
+   Ignores_Armor: Hits caused by this weapon ignore armor saves.
+   Dangerous_to_everyone: If the user rolls a 1 to hit when using this weapon, the user and everyone within 1" is hit.
+
+Repeater_Crossbow:
+ name: Repeater Crossbow
+ fluff: A special version of the crossbow, used by the Dark Elves of Naggaroth. It is lighter than a regular crossbow and has a reloading mechanic that allows for a higher rate of fire.
+ range: 24"
+ strength: 3 
+ crit_class: shooting
+ price: 40gc 
+ rarity: Rare 8
+ limited_to: 
+   - Dark Elves 
+ special: 
+   Rapid_Fire: At half range, the user may choose to fire two shots at his target. When doing so, he suffers a -1 modifier to hit.
+
+Rifle:
+ name: Rifle 
+ fluff: A rare version of the handgun. More finely crafted this gun is normally used by nobles or wealthy huntsmen. It allows for precise shots on greater distances but does not reach the precision of the famed Hochland hunting rifle. 
+ range: 36" 
+ strength: 4 
+ modifier:
+   Sv: -1 
+ class: blackpowder weapons
+ crit_class: shooting
+ price: 75gc 
+ rarity: Rare 9 
+ special:
+   Fire_every_other_turn: A Rifle takes one turn to reload. Learning the hunter skill negates this rule. 
+
+Sling: 
+ name: Sling 
+ fluff: A few strings and a patch of leather. Man's oldest hunting weapon that doesn't make your hands dirty. It suffers from low strength but it can be fearful when used in great numbers.
+ range: 18" 
+ Strength: 2 
+ crit_class: shooting
+ price: 2gc 
+ rarity: common 
+ limited_to: 
+   - Sisters of Sigmar 
+   - Clan Eshin Skaven
+   - Clan Pestilens Skaven 
+   - Lahmia Vampires 
+   - Chaos Dwarves
+
+Short_Bow:
+ name: Short Bow 
+ fluff: A lighter and less accurate version of the bow. It is often used by smaller races or warbands who either prefer to fight their enemies in melee combat or rely on mass amounts of short-ranged arrows to win their fights.
+ range: 18" 
+ strength: 3 
+ class: Bows 
+ crit_class: shooting 
+ price: 5gc 
+ rarity: common 
+
+Throwing_Knives:
+ name: Throwing Knives 
+ fluff: Not only Knives but Shuriken, Darts, Hatchets and basically anything that can be thrown at your enemy and is sharp enough to stick with him.
+ range: 6" 
+ strength: As user 
+ class: Thrown weapons 
+ crit_class: shooting
+ price: 15gc 
+ rarity: Rare 5 
+ limited_to:
+   - Kislevites
+   - Clan Eshin Skaven 
+   - Forest Goblins
+   - Marauders of Chaos 
+   - Norse Explorers 
+   - Battle Monks of Cathay 
+   - Corvus Cabal 
+ special:
+   No_movement_penalty: Throwing Knives don't suffer the penalty for moving and shooting. 
+
+Warpfire_Thrower:
+ name: Warpfire Thrower 
+ fluff: A diabolical device made by the insane engineers of Clan Skryre. This machinery spits out hellish green clouds of fire at a close distance that are able to burn and consume almost anything in Mordheim. It is extremely rare, expensive, heavy and dangerous to use though.
+ range: Flame Template 
+ strength: 5 
+ crit_class: shooting 
+ price: 175gc 
+ rarity: Rare 11
+ limited_to:
+   - Clan Skryre Skaven 
+ special:
+   flamestorm: The Warpfire Thrower uses the old flame template from Warhammer 40k to determine its range (Ask your Grandfather, kid!). All models covered or covered partially are hit. This may not cover models in the shooter's own warband.
+   heavy: A model equipped with a Warpfire Thrower halves its movement stat. A model in base contact that is not carrying anything heavy itself may help the bearer so he may ignore this rule.
+   Cumbersome: A model equipped with a Warpfire Thrower can only be equipped further with a Dagger type weapon, miscellaneous equipment and armor.
+   Move_or_fire: A model equipped with a Warpfire Thrower may not move and fire in the same turn.
+   Misfire: A Warpfire Thrower uses the misfire table for blackpowder weapons from the Mordheim Base Rulebook.
+
+Warplocl_Pistol:
+ name: Warplock Pistol
+ fluff: Warplock pistols are terrifying weapons, testimony to the mad genius of Clan Skryre engineers. Warplock pistols shoot ammunition made of magically treated warpstone and wounds caused by Warplock pistols are horrible to behold and often cause infections
+ range: 6" 
+ strength: 5
+ modifier:
+   Sv: -1 
+ class: blackpowder weapons 
+ crit_class: shooting 
+ price: 35gc (single)/ 70gc (brace)
+ rarity: Rare 11
+ limited_to:
+   - Clan Eshin Skaven
+   - Clan Skryre Skaven 
+ special:
+   Fire_every_other_turn: A Pistol takes one turn to reload.
