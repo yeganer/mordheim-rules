@@ -1,0 +1,39 @@
+Cold_Steel_Weapons:
+ name: Cold Steel Weapons
+ fluff: Wood Elves do not use forges; they have a special smithing style known by outsides as “Cold Forging”. Cold Forging is a mix of both physical and magical techniques known only to the Wood Elves. The Metal which comes from this Cold Forging technique is called Cold Steel.
+ price: Melee Weapon price x3
+ rarity: Rare 10
+ effect: Grants offensive strikes with this weapon a +1WS bonus. This does not modify the difficulty to hit the bearer but it may modify the difficulty to hit or to parry.
+
+Darksteel_Weapons:
+ name: Darksteel Weapons 
+ fluff: Dark Steel Weapons are forged in the city of Hag Graef, the Dark Crag. They are fashioned from Black steel, a rare form of steel found deep within the mountains around the city. Dark Steel weapons have wicked protrusions and serrated edges, which inflict serious damage on an opponent.
+ price: Melee Weapon price x4
+ rarity: Rare 12
+ effect: 
+   - Grants the weapon the stunning rule of Clubs. Opponents are Stunned on a roll of 2-4 on the injury table. Note that this does not improve the stunning capabilities of a darksteel club any further.
+   - Grants a +1 bonus for the weapon when rolling on critical hit tables. 
+
+Gromril_Weapons: 
+ name: Gromril Weapons
+ fluff: Only a Dwarf Runesmith can forge a weapon from Gromril, a rare meteoric iron. A blade fashioned from this metal will stay keen for a thousand years.
+ price: Melee Weapon price x4 
+ rarity: Rare 11
+ effect: Grants the weapon an additional modifier of -1Sv. Note that this may stack with existing modifiers.
+
+Ithilmar_Weapons:
+ name: Ithilmar Weapons 
+ fluff: Elven blades are forged from priceless Ithilmar, an extremely light but strong metal, found only in the fabled Elven kingdoms. A few of these weapons are occasionally found in the Old World and these are normally spoils of war, taken by the Norse raiders who pillage the coastal settlements of the Elves.
+ price: Melee Weapon price x3 
+ rarity: Rare 9
+ effect: Strikes with an Ithilmar Weapon are dealt at +1I. Note that this can lead to a model striking at two initiative Steps. This may not lead to a model injuring an enemy and finishing him off right away. The model being attacked is always fought the way it was at the beginning of the attacking model's strikes.
+
+Obsidian_Weapons: 
+ name: Obsidian Weapons 
+ fluff: Obsidian is mined in the Dark Lands by the minions of Chaos. When expertly derived from its ore, the curious volcanic rock becomes ensorcelled by engineers manufacturing artefacts in the furnaces of Zharr-Naggrund. Forging weapons using these vile techniques requires acute diabolic expertise making them extremely rare.
+ price: Melee Weapon price x4 
+ rarity: Rare 12
+ effect: 
+   - Grants the weapon an additional modifier of +1S. Note that this may stack with existing modifiers. 
+   - Grants the weapon the strike last rule. The weight of this weapon makes its user strike last in combat, even when charging. Learning the strongman skill negates this effect. 
+   - When a critical hit is scored with an obsidian weapon, roll an additional die. On a 1-2 the weapon breaks and may not be used for the remainder of the battle. 
