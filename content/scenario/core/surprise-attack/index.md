@@ -17,7 +17,8 @@ N/A, although used. A roll-off is suggested. The winner may choose whether they 
 2. The defender deploys his available Heroes and Henchmen on the table. No model may be closer than 8" to another model, as the warband is spread out wide to search the ruins. No model may be deployed closer than 8" to a table edge.
 3. The attacker deploys his whole warband within 8" of a random table edge, as shown below. He may choose which edge to nominate as ‘1’ before rolling to see where he deploys.
 
-![Deployment](deployment_surprise_attack.png)
+{{< figure src="deployment_zone.png" title="Deployment Zone">}}
+
 ## Special Rules
 The defender, at the start of his second and subsequent turns, may roll a D6 for each of his Henchmen groups or Heroes not yet on the table. On a 4+ they move on in the movement phase from a random table edge as shown below – roll a D6. All reinforcements for that turn arrive from the same edge and may charge on the turn in which they arrive.
 ## Starting the game

@@ -1,41 +1,33 @@
 ---
-title: "Dark Elf Warband"
+title: {{ replace .Name "-" " " | title }}
 draft: false
-magic_list: dark_elf_magic
+magic_list: {{ .Name }}-magic
 heroes:
-- name: High Born
+- name: {{ replace .Name "-" " " | title }} Leader
   fluff: |
-    Dark Elf Leaders are typically drawn from the Dark Elf nobility and lead the warband in search of gold,
-    slaves and arcane artefacts to bring home to Naggaroth. They are cold and ruthless killers and they command
-    the respect of their troops through assassination and terror. They have attained their position of leadership
-    by eliminating rival nobles who stand in their way and through their remarkable cunning, they are dangerous
-    foes who embody the merciless traits of the Druchii race.
+    Fluff text
   price: 80
   xp: 20
   weight: 1
-  stats:
-    M: 5
-    WS: 5
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 9
+  stats: { M: 5, WS: 5, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 9}
   equipment_list:
-    - Dark Elf equipment list
-  skill_lists:
+    - {{ replace .Name "-" " " | title }} equipment list
+  skill_lists: 
     - Combat
     - Shooting
     - Academic
     - Speed
-    - Dark Elf Special Skill
+    - {{ replace .Name "-" " " | title }} Special Skill
   special:
     Leader: Any models in the warband within **6**" of the High Born may use his Leadership instead of their own.
 
 henchmen:
-- name: "Corsair"
+- name: {{ replace .Name "-" " " | title }} Henchman
+  fluff: {{ replace .Name "-" " " | title }} Henchman fluff
+  price: 25
+  stats: { M: 6, WS: 3, BS: -, S: 4, T: 4, W: 1, I: 1, A: 1, Ld: 4 }
+  special:
+    Fear:
 ---
 Fluff text
 ### Special Rules
@@ -43,15 +35,15 @@ Fluff text
   Explanation
 
 ## Choice of Warriors
-A Dark Elf warband must include a minimum of three models. You have 500 gold crowns to recruit your initial warband. The maximum number of warriors in the warband may never exceed 12.
-* __High Born__: Each Dark Elf warband must have one High Born to lead it – no more, no less.
+A {{ replace .Name "-" " " | title }} warband must include a minimum of three models. You have 500 gold crowns to recruit your initial warband. The maximum number of warriors in the warband may never exceed 12.
+* __High Born__: Each {{ replace .Name "-" " " | title }} warband must have one High Born to lead it – no more, no less.
 
-{{< hero >}}
+{{< units >}}
 
 ## Equipment
 The following lists are used by warbands to pick their weapons:
 
-### Dark Elf Equipment List
+### {{ replace .Name "-" " " | title }} Equipment List
 {{< table style="table-border" >}}
 | Hand-to-hand Combat Weapons |      |
 | --------------------------- | ---: |

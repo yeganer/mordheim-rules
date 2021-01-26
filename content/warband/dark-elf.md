@@ -1,7 +1,7 @@
 ---
 title: "Dark Elf Warband"
 draft: false
-magic_list: dark_elf_magic
+magic_list: dark-elf-magic
 heroes:
 - name: High Born
   fluff: |
@@ -13,16 +13,7 @@ heroes:
   price: 80
   xp: 20
   weight: 1
-  stats:
-    M: 5
-    WS: 5
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 9
+  stats: { M: 5, WS: 5, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 9}
   equipment_list:
     - Dark Elf equipment list
   skill_lists:
@@ -39,16 +30,7 @@ heroes:
   price: 50
   xp: 12
   weight: 2
-  stats:
-    M: 5
-    WS: 5
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 8
+  stats: { M: 5, WS: 5, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 8 }
   equipment_list:
     - Dark Elf equipement list
   skill_lists:
@@ -63,16 +45,7 @@ heroes:
   price: 50
   xp: 8
   weight: 3
-  stats:
-    M: 5
-    WS: 4
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 8
+  stats: { M: 5, WS: 4, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 8 }
   equipment_list:
     - Dark Elf equipement list
   skill_lists:
@@ -87,16 +60,7 @@ heroes:
   price: 70
   xp: 12
   weight: 4
-  stats:
-    M: 5
-    WS: 4
-    BS: 4
-    S: 3
-    T: 3
-    W: 1
-    I: 6
-    A: 1
-    Ld: 8
+  stats: { M: 5, WS: 4, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 8 }
   equipment_list:
     - Dark Elf equipement list
   skill_lists:
@@ -108,6 +72,23 @@ heroes:
 
 henchmen:
 - name: "Corsair"
+  fluff: Corsair fluff
+  price: 45
+  stats: { M: 5, WS: 4, BS: 4, S: 3, T: 3, W: 1, I: 6, A: 1, Ld: 8 }
+
+- name: "Shade"
+  fluff: Shade fluff
+  price: 35
+  stats: { M: 5, WS: 3, BS: 3, S: 3, T: 3, W: 1, I: 5, A: 1, Ld: 8 }
+
+- name: "Cold One Beasthound"
+  fluff: Beasthound fluff
+  price: 25
+  stats: { M: 6, WS: 3, BS: -, S: 4, T: 4, W: 1, I: 1, A: 1, Ld: 4 }
+  special:
+    Fear:
+    Scaly Armor: +1 armor save
+  
 ---
 Dark Ones of Naggaroth Many dare not speak of the High Elves’ evil kin, the Druchii, or the Dark Elves as they are better known. They are a race for whom pain and pleasure have been pushed to the ultimate extreme. They leave destruction and despair in their wake and are more greatly feared than the barbaric Orcs and no less so than the tainted forces of Chaos and Undeath. To the victims of the Dark Elves it is the fortunate to whom a quick death is gifted for this twisted folk roam the Known World in search of slaves. The slaves of the Dark Elves are either worked to death in their mines, ripped apart on the altars to Khaine, their dark God, or tortured mercilessly by the Brides of Khaine, the Witch Elves. Dark Elves take a perverse delight in inflicting pain upon others just to see their victims suffer.
 
@@ -131,7 +112,7 @@ A Dark Elf warband must include a minimum of three models. You have 500 gold cro
 * __Shades__: Your warband may include up to five Shades.
 * __Cold One Hounds__: Your warband may include up to two hounds if it also includes a Beastmaster.
 
-{{< hero >}}
+{{< units >}}
 
 ## Equipment
 The following lists are used by Dark Elf warbands to pick their weapons:
