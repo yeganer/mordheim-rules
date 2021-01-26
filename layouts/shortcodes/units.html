@@ -1,3 +1,4 @@
+<h2>Heroes</h2>
 <div class="row">
   {{- range $v := .Page.Params.heroes }}
     {{- $data := $v -}}
@@ -9,6 +10,21 @@
         {{ template "hero_stats" dict "data" $data }}
         {{ template "hero_special" dict "special" $data.special }}
         {{ template "hero_skill_lists" dict "skills" $data.skill_lists }}
+      </div>
+    </section>
+  {{- end -}}
+</div>
+<h2>Henchmen</h2>
+<div class="row">
+  {{- range $v := .Page.Params.henchmen }}
+    {{- $data := $v -}}
+    <section class="col-md-8 col-lg-6 order-{{ $data.weight }}">
+      <div >
+        <h3>{{ $data.name }}</h3>
+        <strong>{{ $data.price }}</strong> Gold Crowns to hire
+        <p class="font-weight-light font-italic">{{ print $data.fluff | markdownify }}</p>
+        {{ template "hero_stats" dict "data" $data }}
+        {{ template "hero_special" dict "special" $data.special }}
       </div>
     </section>
   {{- end -}}
