@@ -1,0 +1,105 @@
+Explosive_Bolts:
+ name: Explosive Bolts 
+ used_with: Crossbows
+ ammo_roll: 5+ 
+ price: 65+3D6gc 
+ rarity: Rare 12
+ effect: 
+   - on a successful hit, place the small template (Ask your Grandpa) on the target model. All models at least partially covered suffer a s3 hit. 
+   - On a hit roll of a 1, the bolt explodes in the shooter's face. Place the small template on the firing model. Every model at least partially covered suffers a S3 hit. 
+
+Cursed_Bullets:
+ name: Cursed Bullets 
+ used_with: Blackpowder Weapons
+ ammo_roll: 4+
+ price: 50+D3x5gc
+ effect: 
+   - additional modifier of +1 to wound models in warbands that contain a prayer user 
+   - additional modifier of +1 on injury rolls against models in warbands that contain a prayer user 
+
+Fire_Arrows:
+ name: Fire Arrows
+ used_with: Bows 
+ ammo_roll: 3+
+ price: 30+D6gc 
+ effect: A target hit with a Fire Arrow is set on fire on a roll of 4+
+
+Heavy_Arrows:
+ name: Heavy Arrows 
+ used_with: Bows 
+ ammo_roll: 2+ 
+ price: 15+D6gc 
+ effect: Ignore the to hit modifiers of wind and storm 
+
+Heavy_Bolts:
+ name: Heavy Bolts 
+ used_with: Crossbows 
+ ammo_roll: 2+ 
+ price: 15+D6gc 
+ rarity: Rare 5 
+ effect: Ignore the to hit modifiers of wind and storm
+
+Hunting_Arrows: 
+ name: Hunting Arrows 
+ used_with: Bows 
+ ammo_roll: 3+ 
+ price: 25+d6gc 
+ Rarity: Rare 8 
+ effect: Wounds caused by Hunting Arrows are resolved with a +1 modifier on the injury roll.
+
+Knock_Out_Bolts:
+ name: Knock Out Bolts 
+ used_with: Crossbows 
+ ammo_roll: 2+ 
+ price: 20gc 
+ rarity: Rare 6 
+ effect: 
+   - Shots made with Knock Out Bolts use the Bludgeoning crit table 
+   - Shots made with Knock Out Bolts have the stunning rule of clubs, stunning enemies on a 2-4 on the injury table. 
+   - Shots made with Knock Out Bolts have an additional modifier of +1Sv 
+
+Piercing_Arrows:
+ name: Piercing Bolts 
+ used_with: Bows 
+ ammo_roll: 3+
+ price: 25+D6gc 
+ rarity: Rare 8
+ effect: Shots made with Piercing Arrows have an additional modifier of -1Sv 
+
+Piercing_Bolts:
+ name: Piercing Bolts
+ used_with: Crossbows 
+ ammo_roll: 3+
+ price: 25+D6gc 
+ rarity: Rare 8
+ effect: Shots made with piercing bolts have an additional modifier of -1Sv 
+
+Silver_Bullets:
+ name: Silver Bullets 
+ used_with: Blackpowder Weapons
+ ammo_roll: 4+
+ price: 50+D3x5gc
+ rarity: Rare 10
+ effect:
+   - additional modifier of +1 to Wound against undead and mutated models and chaos or necromancy spell users.
+   - additional modifier of +1 on injury rolls against undead and mutated models and chaos or necromancy spell users.  
+
+Superior_Blackpowder:
+ name: Superior Blackpowder
+ used_with: Blackpowder Weapons 
+ ammo_roll: 4+
+ price: 30gc 
+ rarity: Rare 11
+ effect: 
+   - Shots made with Superior Blackpowder are resolved with an additional modifier of +1S 
+   - May not be combined with Silver Bullets or Cursed Bullets
+
+Waterproof_Blackpowder:
+ name: Waterproof Blackpowder
+ used_with: Blackpowder Weapons 
+ ammo_roll: 2+ 
+ price: 15+D6gc 
+ rarity: Rare 5 
+ effect: 
+   - Ignore the effect of rain on the ability to fire a Blackpowder Weapon 
+   - May not be combined with Silver Bullets or Cursed Bullets
