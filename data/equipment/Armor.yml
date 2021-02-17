@@ -1,0 +1,228 @@
+Barding:
+ name: Barding 
+ fluff: A horse is good. An armored horse is far better. Used mostly by heavy cavalry in large scale battles, some suits of horse armor find their way to the cursed streets of Mordheim. There, they can turn a regular horseman into a veritable knight.
+ price: 30gc 
+ rarity: Rare 11
+ armor_value: 6+ 
+ special: 
+   - Barding is used by mounts, not by characters. A model needs a suitable riding animal to make use of barding.
+
+Buckler: 
+ name: Buckler 
+ fluff: A very small shield, worn almost like a glove by fighters that prefer a quicker style of combat and don't like being slowed down by the weight of their armor. A buckler therefor is not used to block heavy blows but to deflect and parry an enemy's attacks.
+ price: 5gc
+ rarity: common
+ armor_value: none 
+ category: shield 
+ special: 
+   - A buckler gives the user the parry rule when used in close combat
+
+Cavalry_Shield:
+ name: Cavalry Shield 
+ fluff: A shield that is designed to be used by horsemen and knights. It covers those body areas that are attacked by Infantry more than a regular shield does without hindering the bearer's ability to strike blows.
+ price: 40gc 
+ rarity: Rare 9 
+ armor_value: 6+ 
+ category: shield 
+ special: 
+   - When used by a mounted warrior, a cavalry shield gives the bearer the parry rule.
+   - When combined with many types of armor, using a cavalry shield confers a -1 penalty to the bearer's movement stat. 
+   - This shield is not yet approved by the Mordheim City council. Please stand by. 
+
+Chaos_Armor:
+ name: Chaos Armor
+ fluff: Twisted, baroque and horryfing. This armor is worn by the most depraved and bloodthirsty champions of the chaos gods. It fuses with their scarred, unhealthy and bloated flesh and can never be removed from the body.
+ price: 185gc 
+ rarity: Rare 13
+ armor_value: 4+ 
+ category: armor 
+ special:
+   - Chaos Armor is not bought like any piece of armor. It seeks out the most bloodthirsty of warriors. Its rarity goes down by 1 point for every enemy taken out of action during the last battle by the seeking model. The model seeking must also be the one wearing.
+   - The Price of Chaos Armor is reduced by 1gc for every experience point of the bearer. 
+   - Chaos Armor fuses with the body of the bearer. It can never be taken off, not even by being captured by an opponent or being robbed in the streets.
+   - Chaos Armor does not prevent the bearer from using spells or prayers.
+   - Chaos Armor does not slow the bearer down when combined with a shield
+
+Cold_Steel_Armor:
+ name: Cold Steel Armor 
+ fluff: A secret smithing technique mastered by the wood elves of the old world. These suits of armor are produced without burning a single stick. The outcome is a very light set of armor that makes evasive manoevers easier in combat.
+ price: 80gc 
+ rarity: Rare 11
+ armor_value: 6+
+ category: armor 
+ special: 
+   - Enemies in close combat suffer a -1 to hit modifier against the bearer.
+
+Dark_Steel_Armor:
+ name: Dark Steel Armor
+ fluff: A sinister armor made by the dark elves of Commoragh. Infused with magic energies torn from pain and bathed in the blood of torture victims, this light armor makes the bearer extremely resistant to pain.
+ price: 100gc
+ rarity: Rare 11
+ armor_value: 6+
+ category: armor 
+ special:
+   - When targeted with attacks, the bearer counts his Toughness as +1, even if this would normally exceed his racial maximum. Can be combined with the resilient skill.
+
+Gromril_Armor:
+ name: Gromril Armor 
+ fluff: Heavy and sturdy like the dwarfs that made it. These sets of armor belong to one of the many clans of Dwarfs and most of them have a long history of being used in many wars. Some of them find their way to Mordheim where they offer supreme protection to the dangers of the city.
+ price: 150gc 
+ rarity: Rare 11
+ armor_value: 4+
+ category: armor 
+ special: 
+   - The bearer of Gromril Armor is not slowed down by combining it with a shield. 
+
+Heavy_Armor:
+ name: Heavy Armor 
+ fluff: Chainmail, A cuirass, light plate armor. Heavy armor comes in many forms and varieties and has saved many lives in Mordheim. It is often the most valuable possession of a warband member and the best protection they can dream of. 
+ price: 50gc
+ rarity: common 
+ armor_value: 5+
+ category: armor
+ special: 
+   - The bearer of heavy armor reduces his movement by -1 when he is also carrying a shield. 
+
+Helmet:
+ name: Helmet
+ fluff: Made to cover your head and prevent your skull from splitting when the enemy wants to. It might be an old cooking pot though.
+ price: 10gc 
+ rarity: common 
+ armor_value: none 
+ special: 
+   - When a model wearing a helmet would be stunned, roll a dice. On a 4+ it is only knocked down. This may stack with similar effects.
+
+Ithilmar_Armor: 
+ name: Ithilmar Armor 
+ fluff: A set of armor that shines like polished silver and is fashioned by high elf nobles. It combines the protection of heavy armor with the ease of movement of light armor.
+ price: 90gc
+ rarity: Rare 11
+ armor_value: 5+
+ category: armor 
+ special:
+   - The bearer of Ithilmar Armor is not slowed down when also carrying a shield. 
+
+Lamellar_Armor:
+ name: Lamellar Armor 
+ fluff: This is a very unusual piece of armor rarely imported to the old world. Made in far eastern Cathay from layers of leather and wood this armor offers superior protection. It is not meant to be used with a shield though.
+ price: 120gc 
+ rarity: Rare 10
+ armor_value: 4+
+ category: armor 
+ special:
+   - The bearer of Lamellar Armor reduces his movement by -1 when he is also carrying a shield 
+
+Light_Armor:
+ name: Light Armor 
+ fluff: A Gambeson, a heavy coat of Leather or a rusty piece of chainmail barely holding together. All of this can be light armor that is often found in Mordheim. It offers little protection, but to the desperate souls of the cursed city this is sometimes all that is between them and a violent death.
+ price: 20gc 
+ rarity: common 
+ category: armor 
+ armor_value: 6+ 
+
+Mechanical_Suit:
+ name: Mechanical Suit 
+ fluff: The curse of Stone is a dire fate that awaits all chaos dwarfs. The priests of Hashut are hit even harder as their dark prayers eat upon their souls and life, turning them to stone faster than their cursed kin. To counteract this, they have developed mechanical masterworks, fit to their bodies, protecting them and enhancing their agility.
+ price: 225gc
+ rarity: Rare 14
+ armor_value: 4+ 
+ category: armor 
+ special: 
+   - Only magic users with the hashut school of chaos magic may use a Mechanical Suit.
+   - A Mechanical Suit grants a +3 to the bearer's movement stat.
+   - The bearer of a Mechanical Suit is not slowed down when also using a shield. 
+   - Wearing a Mechanical Suit does not remove the ability to cast spells. 
+   - A Mechanical Suit is fit for the bearer and no one else. It can never be transferred to another model. 
+
+Pavise: 
+ name: Pavise
+ fluff: Less a shield and more a portable wooden wall. It is mostly used in large military forces by archers, using it as mobile cover. Some Warbands build those themselves from old doors and put them to good use.
+ price: 25gc 
+ rarity: Rare 8 
+ armor_value: none, see special 
+ category: shield 
+ special: 
+   - The bearer of a pavise always counts as being in cover when being shot at. 
+   - the bearer of a pavise counts as equipped with a shield in close combat. 
+   - the bearer of a pavise halves his movement stat.
+
+Scutum: 
+ name: Scutum 
+ fluff: These large shields are designed to be used by large formations of Infantry in pitched battles. While these do not rage in Mordheim, these shields can still be sometimes found in the hands of the rag-tag combattants in the cursed city. 
+ price: 45gc 
+ rarity: Rare 9 
+ armor_value: 6+
+ category: shield 
+ special: 
+   - When attacking a model equipped with a Scutum, the attacker has to substract -1 from his WS 
+   - A mounted Model can not use a Scutum 
+   - When combined with most types of armor, a Scutum confers a -1 penalty on the bearer's movement stat. 
+   - This shield is not yet approved by the Mordheim City council. Please stand by. 
+
+Sea_Dragon_Cloak: 
+ name: Sea Dragon Cloak 
+ fluff: Mostly worn by Dark Elf Corsairs to demonstrate wealth and glory, these are made from the skin of huge sea creatures. They are both flexible and sturdy.
+ price: 40+2D6gc 
+ rarity: Rare 10 
+ armor_value: none, see special 
+ category: clothing
+ special: 
+   - Wearing a Sea Dragon Cloak grants the bearer the parry rule.
+   - A Sea Dragon Cloak may be combined with regular armor. 
+
+Shield:
+ name: Shield 
+ fluff: It's a shield. What more do you need to know? Keep it between you and your enemy.
+ price: 5gc 
+ rarity: common
+ armor_value: 6+ 
+ category: shield 
+ special:
+   - When combined with many types of armor, the bearer must substract 1 from his movement stat.  
+
+Spiked_Shield:
+ name: Spiked Shield 
+ fluff: Some madmen hammer long nails in their shields or add spikes to them. This is meant to scare some enemies away or to hurt them when they storm into melee combat. 
+ price: 30gc 
+ rarity: Rare 8 
+ armor_value: 6+ 
+ category: shield 
+ special: 
+   - When rolling a natural 1 to attack a model equipped with a spiked shield in close combat, the attacker suffers a S1 hit. 
+   - When combined with most types of armor, a spiked shield confers a -1 penalty to the bearer's movement stat. 
+   - This shield is not yet approved by the Mordheim City council. Please stand by. 
+
+Toughened_Leathers: 
+ name: Toughened Leathers 
+ fluff: Basically a vest made of cooked leather. It smells so bad, people debate over wheter these can even be sold. 
+ price: 10gc 
+ rarity: common 
+ armor_value: 6+
+ category: armor 
+ special: 
+   - Wearing Toughened Leathers confers a -1 penalty on Initiative.
+
+Tower_Shield:
+ name: Tower Shield 
+ fluff: A particularly large type of shield, meant to cover most of the bearer against shooting. 
+ price: 25gc 
+ rarity: Rare 9 
+ armor_value: 6+ 
+ category: shield 
+ special: 
+   - When using a tower shield, the bearer always counts as being in cover against shooting attacks.
+   - A mounted model can never use a tower shield.
+   - When combined with most types of armor, a tower shield confers a -1 penalty to the bearer's movement stat. 
+   - This shield is not yet approved by the Mordheim City council. Please stand by. 
+   - This is a city council rework of the pavise shield. 
+
+Wolf_Cloak:
+ name: Wolf Cloak 
+ fluff: A cloak made of a wild wolf's pelt. The northern tribes demonstrate their hunting and fighting skills by slaying these dangerous beasts.
+ price: 5gc 
+ rarity: Rare 5 
+ armor_value: None, see special
+ category: clothing 
+ special:
+   - Wearing a Wolf Cloak gives the bearer a 6+ armor save against shooting attacks. 
+   - A Wolf Cloak can be combined with regular armor. 
