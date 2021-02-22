@@ -1,0 +1,96 @@
+Black_Lotus:
+ name: Black Lotus 
+ fluff: In the deepest forests of the Southlands grows a plant that is extremely poisonous. It is known as Black Lotus and is much sought after by alchemists, assassins, wizards of the Western Coast and bored wives.
+ price: 10+D6gc 
+ rarity: Rare 9
+ limitation: Unavailable to Sisters of Sigmar and Witch Hunters
+ effect: A 6 to hit always wounds the target. 
+
+Blessed_Water:
+ name: Blessed Water 
+ fluff: The priests of Ulric, Sigmar, Morr and Manann hold great power over evil. Pure water from a clear fountain, blessed by one of these priests, is said to burn things of darkness and evil.
+ price: 10+3D6gc 
+ rarity: Rare 6 / common for Witch Hunters 
+ limitation: Unavailable to undead warbands.
+ effect: Thrown in the shooting phase using ballistic skill, range is Sx2. Creates a small blast AoE in which undead, possessed and mutated models as well as necromancy and chaos magic users are wounded automatically without armor save.
+
+Bugman's_Ale:
+ name: Bugman's ale 
+ fluff: Of all the Dwarf brewmasters, Josef Bugman is the most famous. His ale is known throughout the Old World, and widely regarded as the best.
+ price: 50+3D6gc 
+ rarity: Rare 9 
+ limitation: Unavailable to elven warbands 
+ effect: Makes the whole warband immune to psychology for one battle 
+
+Crimson_Shade:
+ name: Crimson Shade 
+ fluff: Crimson Shade is the name given by Old Worlders to the leaves of the blood oak of Estalia. It is an extremely addictive drug, but grants its users inhuman quickness and strength. 
+ price: 35+D6gc 
+ rarity: Rare 8 
+ effect: 
+   - Grants a model +D3 I, +1 S and +1 M for one battle. Does not work on undead models. 
+   - Roll 2D6 after the game. On a 2-3, the model becomes addicted. If you fail to ever buy it crimson shade before a battle, it will leave your warband. On a 12, it permanently gets +1 I. 
+
+Dark_Venom:
+ name: Dark Venom 
+ fluff: This is a poison extracted from Heldrakes, gigantic sea serpents that plague the Western Ocean and the coast of Naggaroth. The slightest wound infected by Dark Venom causes excruciating pain, incapacitating the bravest of men.
+ price: 30+2D6gc 
+ rarity: Rare 8 
+ limitation: Unavailable to Witch Hunters and Sisters of Sigmar 
+ effect: The poisoned weapon has +1 S for one battle. 
+
+Garlic:
+ name: Garlic 
+ fluff: Garlic is a common herb grown in most gardens of the Empire. It is said to ward off Vampires and other denizens of the dark.
+ price: 1gc 
+ rarity: common 
+ limitation: Unavailable to Warbands that contain any Vampire 
+ effect: A Vampire charging a model equipped with Garlic has to pass a Ld check.
+
+Healing_Herbs:
+ name: Healing Herbs 
+ fluff: Certain plants that grow on the banks of the River Stir have curative properties. Herbalists collect their roots and leaves and use them to treat the sick and wounded.
+ price: 20+2D6gc 
+ rarity: Rare 8 
+ effect: Used in the recovery phase if not in melee combat. In this recovery phase, the user heals to full Wounds.
+
+Mad_Cap_Mushrooms:
+ name: Mad Cap Mushrooms 
+ fluff: The feared cult of Goblin Fanatics of the Worlds Edge Mountains use these hallucinogenic mushrooms to drive themselves into a frenzied state.
+ price: 20+3D6gc
+ rarity: Rare 9 / common for greenskin warbands 
+ effect: 
+   - The user is frenzied for this battle.
+   - Roll a D6 after the battle. On a 1, the user becomes stupid.
+   - does not work on undead models. 
+
+Mandrake_Root:
+ name: Mandrake Root 
+ fluff: The man-shaped Mandrake Root grows in the rotting swamps of Sylvania. It is a noxious, deadly plant which is highly addictive and slowly kills its users, but also allows them to shrug off almost any pain.
+ price: 25+D6gc 
+ rarity: Rare 8 
+ effect: 
+   - The user has +1 T for the battle 
+   - Roll 2D6 after the battle. On a 2-3, the user loses 1 T permanently
+   - does not work on undead models 
+
+Tears_of_Shallaya:
+ name: Tears of Shallaya 
+ fluff: Tears of Shallaya are vials of water from the holy spring in Couronne. Shallaya is the goddess of healing and mercy and it is said that this water has curative properties and is proof against any poison.
+ price: 10+2D6gc 
+ rarity: Rare 7 
+ limitation: Unavailable to undead warbands 
+ effect: 
+   - Makes a model immune to poison for the battle 
+   - Can be used to cure Nurgle's Rot 
+
+Vodka: 
+ name: Vodka
+ fluff: Distilled in Kislev from potatoes. Drink for further information. 
+ price: 25+2D6gc
+ rarity: Rare 8 
+ limitation: Kislevites only 
+ effect: 
+   - +1 Ld for the warband 
+   - every user has to pass a T check before the game. If failed, -1 I for the game. 
+ 
