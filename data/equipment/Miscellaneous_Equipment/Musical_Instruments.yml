@@ -1,0 +1,27 @@
+Drum:
+ name: Drum 
+ fluff: One of the most traditional instruments in military music, drums are commonly found in Mordheim. They have proved to be surprisingly effective in combat. 
+ price: 10gc 
+ rarity: common 
+ effect: The musician counts as being equipped with a Club and a shield 
+
+Horn:
+ name: Horn 
+ fluff: Commonly used by hunting parties, some warbands fail to realize the difference between a hunt and a Mordheim street fight. To their enemies, the Sound of these Horns is chilling to the bone.
+ price: 10gc 
+ rarity: Rare 9 
+ effect: Fear checks caused by the cacophony skill have to be taken with a -1 Ld penalty 
+
+Flute: 
+ name: Flute 
+ fluff: Made from a stick or a bone, Flutes are a very common instrument in the Old World. It is said that you can not be afraid and play music at the same time. It is somewhat true for the flute as its soothing sound bolsters men against the horrors of the dark. 
+ price: 5gc 
+ rarity: Rare 5 
+ effect: The bearer has a +1 Ld bonus 
+
+Lyre: 
+ name: Lyre 
+ fluff: Lyres are mostly used by court musicians to please the high born ears of kings and nobility. But sometimes you can hear its sound out of a ramshackle tavern, accompanied by the laughter of men and the clanking of ale mugs. 
+ price: 5gc 
+ rarity: Rare 9 
+ effect: If the musician uses the ministrel skill inbetween battles, he generates +1D6gc 
