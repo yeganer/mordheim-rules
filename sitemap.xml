@@ -1,106 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://yeganer.github.io/mordheim-rules/magic/dark_elf_magic/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/magic/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/rules/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/skills/</loc>
     <lastmod>2020-12-18T16:35:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/breakthrough/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/chance-encounter/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/warband/dark_elves/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/defend-the-find/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/exploration/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/exploration/et_core_scenario/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/hidden-treasure/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/occupy/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/skirmish/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/street-fight/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/surprise-attack/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/12/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/warband/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yeganer.github.io/mordheim-rules/scenario/core/wyrdstone-hunt/</loc>
   </url>
-  
 </urlset>
