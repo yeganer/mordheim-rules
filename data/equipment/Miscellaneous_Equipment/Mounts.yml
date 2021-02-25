@@ -1,0 +1,240 @@
+Cave_Squig:
+ name: Cave Squig 
+ fluff: Part fungus and part flesh, these strange ferocious creatures are almost all teeth, easily able to take a man’s leg off with a single bite.
+ M: 2D6
+ WS: 4 
+ S: 4
+ T: 3
+ W: 1
+ I: 4
+ A: 1
+ Ld: 5 
+ price: 20+2D6gc 
+ rarity: Rere 7
+ Limited_to: Goblins 
+ special: 
+   - may not use barding 
+
+Chaos_Steed: 
+ name: Chaos Steed 
+ fluff: Chaos Steeds are malformed, debased parodies of the magnificent warhorses of the Empire. They are used by Possessed and other Chaos warbands.
+ M: 8
+ WS: 3
+ S: 4
+ T: 3
+ W: 1
+ I: 3
+ A: 1
+ Ld: 5
+ price: 90gc
+ rarity: Rare 11 
+ Limited_to: Chaos Warbands 
+ special:
+   - May not be ridden by possessed models 
+   - The rider may re-roll a failed loss of control test.
+
+Cold_One:
+ name: Cold One 
+ fluff: Scaly, mean and stupid, these native creatures of the New World make excellent mounts upon which to fight.
+ M: 7
+ WS: 3
+ S: 4
+ T: 4
+ W: 1
+ I: 3
+ A: 3
+ Ld: 3
+ price: 100gc
+ rarity: Rare 11 
+ Limited_to: Dark Elves 
+ special:
+   - Cold Ones cause fear 
+   - When riding a Cold One, the rider is subject to the rules of stupidity
+   - Cold Ones grant an additional +1 to the armor save.
+   - May not use barding. 
+
+Elven_Steed: 
+ name: Elven Steed 
+ fluff: Elven steeds are graceful animals, but have a vicious temperament when called upon to fight. It is rumoured that even Dark Elves breed these fine beasts. Typically, High Elf steeds are grey and white, Wood Elf steeds are tan and white, and Dark Elf steeds are midnight black.
+ M: 9
+ WS: 3
+ S: 3
+ T: 3
+ W: 1
+ I: 4
+ A: 1
+ Ld: 5
+ price: 85gc
+ rarity: Rare 11 
+ Limited_to: Elves 
+ special: 
+   - The rider may re-roll a failed loss of control test. 
+   - may not use barding 
+
+Giant_Spider: 
+ name: Giant Spider 
+ fluff: The Giant Spider is the stuff of nightmares. Typically 10 to 12 feet long they are highly prized by Forest Goblins as mounts.
+ M: 7
+ WS: 3
+ S: 3/4
+ T: 3
+ W: 1
+ I: 4
+ A: 1
+ Ld: 4
+ price: 80gc
+ rarity: Rare 11
+ Limited_to: Goblins
+ special: 
+   - may not use barding 
+   - Attacks count as Poisoned with Dark Venom (already in the profile) 
+   - A Giant Spider may climb
+
+Giant_Wolf:
+ name: Giant Wolf 
+ fluff: The giant wolf is common in most of the mountain ranges of the known world. However, catching one of these nasty, fast moving beasts is another thing – especially if you are a Goblin.
+ M: 9
+ WS: 3
+ S: 3
+ T: 3
+ W: 1
+ I: 4
+ A: 1
+ Ld: 4 
+ price: 85gc 
+ rarity: Rare 10
+ Limited_to: Goblins 
+ special:
+   - may not use barding 
+
+Horse:
+ name: Horse
+ fluff: Riding horses are not trained for battle and will not normally attack an enemy. However, they are useful for moving rapidly around the site of a battle
+ M: 8
+ WS: 1
+ S: 3
+ T: 3
+ W: 1
+ I: 3
+ A: 0
+ Ld: 5
+ price: 40gc 
+ rarity: Rare 8
+ Limited_to: Humans 
+ special:
+   - may not use barding 
+
+Mule:
+ name: Mule 
+ fluff: Their stubbornness is legendary, but even so, these beasts of burden are occasionally ridden by Halflings, Dwarfs and even overweight clerics!
+ M: 6
+ WS: 2
+ S: 3
+ T: 3
+ W: 1
+ I: 2
+ A: 0
+ Ld: 4
+ price: 30gc 
+ rarity: Rare 7
+ Limited_to: Not limited 
+ special:
+   - Before moving a Mule, Roll a D6. On a 1, the stubborn animal refuses to move.
+   - When running, a Mule moves 2D6" 
+   - When trying to charge a Mule into combat, the rider has to pass a Ld. check. If failed, the Mule remains where it is. 
+   - may not use barding. 
+
+Nightmare:
+ name: Nightmare
+ fluff: The Vampire Counts occasionally need fell steeds to carry them about their business. Who cares if they're dead? They still have legs, don't they?
+ M: 8
+ WS: 3
+ S: 3
+ T: 3
+ W: 1
+ I: 2
+ A: 2
+ Ld: 5
+ price: 95gc
+ rarity: Rare 11
+ Limited_to: Vampires and Necromancers 
+ special:
+   - As an undead creature, a Nightmare may not run. 
+   - A Nightmare is immune to poison 
+   - A Nightmare is immune to psychology
+   - A Nightmare causes fear 
+
+Skeletal_Steed:
+ name: Skeletal Steed 
+ fluff: Skeletal Steeds are ghastly creatures. They were once normal horses, but when they died their flesh decomposed. When all that was left of them was their bones, evil Necromancers raised them from the dead.
+ M: 8
+ WS: 2
+ S: 3
+ T: 3
+ W: 1
+ I: 2
+ A: 1
+ Ld: 5
+ price: 65gc
+ rarity: Rare 8
+ Limited_to: Undead 
+ special:
+   - As an undead creature, a Skeletal Steed may not run. 
+   - A Skeletal Steed is immune to poison.
+   - A Skeletal Steed is immune to psychology.
+   - A Skeletal Steed causes fear. 
+
+Tuskgor:
+ name: Tuskgor 
+ fluff: Tuskgors are a cross between a boar and a ram. Their bodies are covered in thick brown fur and they have a large bony crest with sharp horns on their forehead.
+ M: 6 
+ WS: 3
+ S: 4
+ T: 4 
+ W: 1
+ I: 2
+ A: 1
+ Ld: 4 
+ price: 85gc 
+ rarity: Rare 11 
+ Limited_to: Beastmen 
+ special:
+   - The Tuskgor gets a Bonus Attack when charging. 
+   - A Tuskgor grants an additional +1 to the armor save. 
+   - may not use barding. 
+
+War_Boar: 
+ name: War Boar 
+ fluff: Large, ferocious and bad-tempered – a perfect mount for an Orc Warlord. Orc warbands occasionally make use of these noisome beasts while exploring the ruins of Mordheim and beyond. It isn’t common though, as the bigger and meaner Orcs tend to take the boars for themselves.
+ M: 7
+ WS: 3
+ S: 3
+ T: 4
+ W: 1
+ I: 3
+ A: 1
+ Ld: 3 
+ price: 115gc 
+ rarity: rare 11 
+ Limited_to: Orcs 
+ special: 
+   - A War Boar gets a bonus of +2S when charging.
+   - A War Boar grants an additional +1 to the armor save. 
+   - may not use barding 
+
+War_Horse:
+ name: War Horse
+ fluff: Warhorses are large, well-trained horses, quite at home in battle. They are primarily used by human warbands.
+ M: 8
+ WS: 3
+ S: 3
+ T: 3
+ W: 1
+ I: 3
+ A: 1
+ Ld: 5
+ price: 80gc 
+ rarity: Rare 11
+ Limited_to: Humans 
+ special:
+   - The rider may re-roll a failed loss of control test. 
